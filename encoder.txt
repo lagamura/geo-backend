@@ -1,0 +1,18 @@
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    'cache-control': 'private',
+    'content-type': 'text/html; charset=utf-8',
+    vary: 'Accept-Encoding',
+    server: 'Microsoft-IIS/10.0',
+    'set-cookie': [
+      'ASP.NET_SessionId=5cuuaayitaq4gkx4yjmejzoj; path=/; HttpOnly; SameSite=Lax'
+    ],
+    p3p: 'CP=\\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\\"',
+    'x-aspnet-version': '4.0.30319',
+    'x-powered-by': 'ASP.NET',
+    date: 'Sun, 27 Nov 2022 18:40:38 GMT',
+    connection: 'close',
+    'content-length': '10523'
+  },
