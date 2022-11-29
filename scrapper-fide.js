@@ -11,18 +11,12 @@ let countermappedPlusNom = 0;
 // const cors = require('cors');
 
 
-// app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
+app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
 
 app.get('/tournaments', async (req, res) => {
-    const Tours = await fetchFideTours()
+    const Tournaments = await main()
     console.log(Tournaments.length - 1)
-    res.json(Tours)
-})
-
-app.get('/scraptournaments', async (req, res) => {
-    const Tours = await fetchFideTours()
-    console.log(Tournaments.length - 1)
-    res.json(Tours) //send or json?
+    res.json(Tournaments)
 })
 
 async function fetchFideTours() {
@@ -88,9 +82,10 @@ async function fetchFideTours() {
 function mapLoLa(Tour, GreekCities) {
     let LatLon = null
     for (let cityObj of GreekCities) {
-        if (Tour.location == cityObj.city) {
-            Tour.lat = cityObj.lat
-            Tour.lon = cityObj.lng
+        if ((String(Tour.location).localeCompare(String(cityObj.city), 'en-US', { ignorePunctuation: true, sensitivity: 'base' })) == 0 ) {
+            console.log(Tour.location," -- matched --", cityObj.city )
+            Tour.lat = Number(cityObj.lat)
+            Tour.lon = Number(cityObj.lng)
             countermapped++
             LatLon = [Tour.lat, Tour.lon]
             break
@@ -103,8 +98,10 @@ function mapLoLa(Tour, GreekCities) {
 // import GreekCities from "./gr.json" assert { type: 'json' };
 
 async function main() {
+    countermapped = 0;
+    countermappedPlusNom = 0;
     const greekCities = require('./greekCities.json');
-    const Tournaments = await fetchFideTours()
+    Tournaments = await fetchFideTours()
     for (let Tour of Tournaments) {
         if (mapLoLa(Tour, greekCities)) {
 
@@ -123,11 +120,13 @@ async function main() {
             // add Tour marker
             if (!(Object.keys(nominatim).length === 0)) {
                 // console.log(nominatim);
+                Tour.lat = Number(nominatim[0].lat)
+                Tour.lon = Number(nominatim[0].lon)
                 countermappedPlusNom++
             }
         }
     }
     // console.log(Tournaments)
     console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
+    return (Tournaments)
 }
-main();
