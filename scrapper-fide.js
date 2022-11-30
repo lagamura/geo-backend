@@ -1,19 +1,24 @@
-const cheerio = require('cheerio')
-const axios = require('axios')
-const express = require('express');
+import cheerio from 'cheerio'
+import axios from 'axios'
+import express, { json } from 'express';
+import greekCities from './greekCities.json' assert {type: 'json'}
+import tournaments from './tournaments.json' assert {type: 'json'}
+
+import fs from 'fs'
 
 const PORT = 8000;
 const app = express()
 let countermapped = 0;
 let countermappedPlusNom = 0;
 // const cors = require('cors');
-
+ 
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
 
 app.get('/tournaments', async (req, res) => {
-    const Tournaments = await main()
-    res.json(Tournaments)
+    // const Tournaments = await main()
+
+    res.json(tournaments)
 })
 
 async function fetchFideTours() {
@@ -98,8 +103,7 @@ function mapLoLa(Tour, GreekCities) {
 async function main() {
     countermapped = 0;
     countermappedPlusNom = 0;
-    const greekCities = require('./greekCities.json');
-    Tournaments = await fetchFideTours()
+    const Tournaments = await fetchFideTours()
     for (let Tour of Tournaments) {
         if (mapLoLa(Tour, greekCities)) {
 
@@ -121,7 +125,7 @@ async function main() {
             // add Tour marker
             if (!(Object.keys(nominatim).length === 0)) {
                 // console.log(`${Tour.location}<-Mapped->`);
-                console.log(nominatim[0])
+                // console.log(nominatim[0])
                 Tour.lat = Number(nominatim[0].lat)
                 Tour.lon = Number(nominatim[0].lon)
                 countermappedPlusNom++
@@ -130,5 +134,7 @@ async function main() {
     }
     // console.log(Tournaments)
     console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
+    let data = JSON.stringify(Tournaments);
+    fs.writeFileSync('tournaments.json', data);
     return (Tournaments)
 }
