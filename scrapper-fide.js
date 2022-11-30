@@ -1,9 +1,7 @@
 const cheerio = require('cheerio')
-
 const axios = require('axios')
-
 const express = require('express');
-const e = require('express');
+
 const PORT = 8000;
 const app = express()
 let countermapped = 0;
@@ -15,7 +13,6 @@ app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
 
 app.get('/tournaments', async (req, res) => {
     const Tournaments = await main()
-    console.log(Tournaments.length - 1)
     res.json(Tournaments)
 })
 
@@ -55,7 +52,7 @@ async function fetchFideTours() {
                 // let children = el.children()
                 $(this).find('td').each((i, el) => {
                     if (i > 1 && i < 6) {
-                        if (i == 3) {
+                        if (i == 3 || i == 5) {
                             tour[ObjFields[i]] = $(el).text().trim()
                         }
                         else {
@@ -82,10 +79,11 @@ async function fetchFideTours() {
 function mapLoLa(Tour, GreekCities) {
     let LatLon = null
     for (let cityObj of GreekCities) {
-        if ((String(Tour.location).localeCompare(String(cityObj.city), 'en-US', { ignorePunctuation: true, sensitivity: 'base' })) == 0 ) {
-            console.log(Tour.location," -- matched --", cityObj.city )
+        if ((String(Tour.location).localeCompare(String(cityObj.city), 'en-US', { ignorePunctuation: true, sensitivity: 'base' })) == 0) {
+            // console.log(Tour.location," -- matched --", cityObj.city )
             Tour.lat = Number(cityObj.lat)
             Tour.lon = Number(cityObj.lng)
+            Tour.region = cityObj.admin_name
             countermapped++
             LatLon = [Tour.lat, Tour.lon]
             break
@@ -114,12 +112,16 @@ async function main() {
                     format: "json",
                     countrycodes: "gr",
                     limit: "1",
+                    addressdetails: "1",
+                    "accept-language": "en-US,en"
                 })
             );
             const nominatim = await response.json();
+
             // add Tour marker
             if (!(Object.keys(nominatim).length === 0)) {
-                // console.log(nominatim);
+                // console.log(`${Tour.location}<-Mapped->`);
+                console.log(nominatim[0])
                 Tour.lat = Number(nominatim[0].lat)
                 Tour.lon = Number(nominatim[0].lon)
                 countermappedPlusNom++
