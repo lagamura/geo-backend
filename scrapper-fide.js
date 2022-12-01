@@ -10,7 +10,7 @@ import fs from 'fs'
 
 
 var corsOptions = {
-    origin: 'https://geo-frontend-production.up.railway.app/',
+    origin: 'https://geo-frontend-production.up.railway.app',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
