@@ -19,7 +19,7 @@ let countermappedPlusNom = 0;
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
 
-app.get('/tournaments', async (req, res) => {
+app.get('api/tournaments', async (req, res) => {
     // const Tournaments = await main()
 
     res.json(tournaments)
