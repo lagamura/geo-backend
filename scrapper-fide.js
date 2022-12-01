@@ -3,11 +3,15 @@ import axios from 'axios'
 import express, { json } from 'express';
 import greekCities from './greekCities.json' assert {type: 'json'}
 import tournaments from './tournaments.json' assert {type: 'json'}
+import compression from 'compression';
+import helmet from 'helmet';
 
 import fs from 'fs'
 
 const PORT = 8000;
 const app = express()
+app.use(helmet())
+app.use(compression()); // Compress all routes
 let countermapped = 0;
 let countermappedPlusNom = 0;
 // const cors = require('cors');
