@@ -5,8 +5,14 @@ import greekCities from './greekCities.json' assert {type: 'json'}
 import tournaments from './tournaments.json' assert {type: 'json'}
 import compression from 'compression';
 import helmet from 'helmet';
-
+import cors from 'cors'
 import fs from 'fs'
+
+
+var corsOptions = {
+    origin: 'https://geo-frontend-production.up.railway.app/',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
 
 const PORT = 8000;
 const app = express()
@@ -15,11 +21,11 @@ app.use(compression()); // Compress all routes
 let countermapped = 0;
 let countermappedPlusNom = 0;
 // const cors = require('cors');
- 
+
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
 
-app.get('/tournaments', async (req, res) => {
+app.get('/tournaments', cors(corsOptions), async (req, res) => {
     // const Tournaments = await main()
 
     res.json(tournaments)
