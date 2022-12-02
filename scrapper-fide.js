@@ -7,6 +7,7 @@ import compression from 'compression';
 import helmet from 'helmet';
 import cors from 'cors'
 import fs from 'fs'
+import cron from 'node-cron';
 
 
 var corsOptions = {
@@ -148,3 +149,8 @@ async function main() {
     fs.writeFileSync('tournaments.json', data);
     return (Tournaments)
 }
+
+//cron job scheduler
+cron.schedule(`0 0 * * *`, async () => {
+    main();
+});
