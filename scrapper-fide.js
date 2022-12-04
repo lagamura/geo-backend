@@ -58,8 +58,13 @@ async function fetchFideTours() {
         let $ = cheerio.load(body);
 
 
-        let table = $("#main-col > table:nth-child(2) > tbody > tr:nth-child(3) > td > table:nth-child(11) > tbody") // this by copy js on dom element
-
+        let table = $("#main-col > table:nth-child(2) > tbody > tr:nth-child(3) > td > table:nth-child(10) > tbody") // this by copy js on dom element
+        if (table.html() == null) {
+            console.log("Fide page changed html structure")
+            return (false)
+        }
+        // console.log(table)
+        // document.querySelector("#main-col > table:nth-child(2) > tbody > tr:nth-child(3) > td > table:nth-child(10) > tbody")
         table.children('tr').each(function (i, el) {
             if (i > 0) {
                 let tour = {}
@@ -115,6 +120,10 @@ async function main() {
     countermapped = 0;
     countermappedPlusNom = 0;
     const Tournaments = await fetchFideTours()
+    if (!Tournaments) {
+        console.log("Abort...Error")
+        return;
+    }
     for (let Tour of Tournaments) {
         if (mapLoLa(Tour, greekCities)) {
 
@@ -145,8 +154,10 @@ async function main() {
     }
     // console.log(Tournaments)
     console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
-    let data = JSON.stringify(Tournaments);
-    fs.writeFileSync('tournaments.json', data);
+    if (Tournaments.length > 1) {
+        let data = JSON.stringify(Tournaments);
+        fs.writeFileSync('tournaments.json', data);
+    }
     return (Tournaments)
 }
 
@@ -154,3 +165,5 @@ async function main() {
 cron.schedule(`0 0 * * *`, async () => {
     main();
 });
+
+main()
