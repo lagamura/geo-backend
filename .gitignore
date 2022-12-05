@@ -6,3 +6,8 @@ dist-ssr
 coverage
 *.local
 
+test.js
+chatgtp.js
+scrapper.js
+helpers.js
+gr.json
