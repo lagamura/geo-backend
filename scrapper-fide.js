@@ -11,7 +11,7 @@ import cron from 'node-cron';
 
 
 var corsOptions = {
-    origin: 'https://geo-frontend-production.up.railway.app',
+    origin: ['https://geo-frontend-production.up.railway.app', "https://www.geochess.eu/", "http://www.geochess.eu/"],
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
@@ -165,5 +165,3 @@ async function main() {
 cron.schedule(`0 0 * * *`, async () => {
     main();
 });
-
-main()
