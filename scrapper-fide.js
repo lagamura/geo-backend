@@ -169,17 +169,21 @@ cron.schedule(`0 0 * * *`, async () => {
 });
 
 app.get('/contact', (req, res) => {
-    res.render('contact.html');
+    // res.render('contact.html');
+    res.json(req.body);
+
 });
 
 app.post('/contact', async (req, res) => {
 
     await sendEmail()
-    res.render('contact.html');
+    res.json(req.body);
 
 })
 
 async function sendEmail() {
+    // https://miracleio.me/snippets/use-gmail-with-nodemailer/ 
+
     // Generate test SMTP service account from ethereal.email
     // Only needed if you don't have a real mail account for testing
 
