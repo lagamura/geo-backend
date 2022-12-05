@@ -11,12 +11,13 @@ import cron from 'node-cron';
 
 
 var corsOptions = {
-    origin: ['https://geo-frontend-production.up.railway.app', "https://www.geochess.eu/", "http://www.geochess.eu/"],
+    origin: ['https://geo-frontend-production.up.railway.app', 'https://www.geochess.eu/', 'http://www.geochess.eu/'],
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
 const PORT = 8000;
 const app = express()
+app.use(cors(corsOptions));
 app.use(helmet())
 app.use(compression()); // Compress all routes
 let countermapped = 0;
@@ -26,7 +27,7 @@ let countermappedPlusNom = 0;
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
 
-app.get('/tournaments', cors(corsOptions), async (req, res) => {
+app.get('/tournaments', async (req, res) => {
     // const Tournaments = await main()
 
     res.json(tournaments)
