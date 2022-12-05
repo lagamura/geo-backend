@@ -17,7 +17,7 @@ var corsOptions = {
 
 const PORT = 8000;
 const app = express()
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(helmet())
 app.use(compression()); // Compress all routes
 let countermapped = 0;
