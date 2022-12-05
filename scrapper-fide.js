@@ -34,6 +34,13 @@ app.get('/tournaments', async (req, res) => {
     res.json(tournaments)
 })
 
+app.post('/contact', async (req, res) => {
+
+    await sendEmail()
+    res.json(req.body);
+
+})
+
 async function fetchFideTours() {
 
     const baseUrl = "https://ratings.fide.com/tournament_list.phtml?country=GRE"
@@ -173,13 +180,6 @@ cron.schedule(`0 0 * * *`, async () => {
 //     res.json(req.body);
 
 // });
-
-app.post('/contact', async (req, res) => {
-
-    await sendEmail()
-    res.json(req.body);
-
-})
 
 async function sendEmail() {
     // https://miracleio.me/snippets/use-gmail-with-nodemailer/ 
