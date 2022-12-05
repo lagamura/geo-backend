@@ -168,11 +168,11 @@ cron.schedule(`0 0 * * *`, async () => {
     main();
 });
 
-app.get('/contact', (req, res) => {
-    // res.render('contact.html');
-    res.json(req.body);
+// app.get('/contact', (req, res) => {
+//     // res.render('contact.html');
+//     res.json(req.body);
 
-});
+// });
 
 app.post('/contact', async (req, res) => {
 
