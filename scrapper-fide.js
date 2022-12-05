@@ -8,6 +8,7 @@ import helmet from 'helmet';
 import cors from 'cors'
 import fs from 'fs'
 import cron from 'node-cron';
+import nodemailer from 'nodemailer'
 
 
 var corsOptions = {
@@ -166,3 +167,44 @@ async function main() {
 cron.schedule(`0 0 * * *`, async () => {
     main();
 });
+
+app.get('/contact', (req, res) => {
+    res.render('contact.html');
+});
+
+app.post('/contact', async (req, res) => {
+
+    await sendEmail()
+    res.render('contact.html');
+
+})
+
+async function sendEmail() {
+    // Generate test SMTP service account from ethereal.email
+    // Only needed if you don't have a real mail account for testing
+
+    // create reusable transporter object using the default SMTP transport
+    const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: 'stelioslagaras@gmail.com',
+            pass: 'nzlmbdwqnacykccr',
+        }
+    });
+
+    const mailOptions = {
+        from: 'stelioslagaras@gmail.com',
+        to: 'stelioslagaras@gmail.com',
+        subject: 'Geochess Contact Form',
+        text: 'Email content'
+    };
+
+    transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Email sent: ' + info.response);
+            // do something useful
+        }
+    });
+}
