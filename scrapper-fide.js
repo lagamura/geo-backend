@@ -8,8 +8,8 @@ import helmet from 'helmet';
 import cors from 'cors'
 import fs from 'fs'
 import cron from 'node-cron';
-import bodyParser from 'body-parser'
 import nodemailer from 'nodemailer'
+import multer from 'multer'
 
 
 var corsOptions = {
@@ -22,8 +22,7 @@ const app = express()
 app.use(cors());
 app.use(helmet())
 app.use(compression()); // Compress all routes
-app.use(bodyParser.urlencoded({ extended: true }));
-
+// app.use(express.json());
 let countermapped = 0;
 let countermappedPlusNom = 0;
 // const cors = require('cors');
@@ -36,7 +35,6 @@ app.get('/tournaments', async (req, res) => {
 
     res.json(tournaments)
 })
-
 
 
 async function fetchFideTours() {
@@ -173,21 +171,19 @@ cron.schedule(`0 0 * * *`, async () => {
     main();
 });
 
+// app.get('/contact', (req, res) => {
+//     // res.render('contact.html');
+//     res.json(req.body);
 
-app.get('/contact', (req, res) => {
-    res.render('contact.html');
-});
+// });
 
-app.post('/contact', async (req, res) => {
 
-    await sendEmail()
-    res.render('contact.html');
-
-})
-
-async function sendEmail() {
-    // Generate test SMTP service account from ethereal.email
-    // Only needed if you don't have a real mail account for testing
+app.post('/contact', multer().none(), (req, res) => {
+    // console.log('request body: ', req.body)
+    const parsedData = JSON.stringify(req.body)
+    // console.log(parsedData)
+    // https://miracleio.me/snippets/use-gmail-with-nodemailer/ 
+    // https://codex.so/handling-any-post-data-in-express
 
     // create reusable transporter object using the default SMTP transport
     const transporter = nodemailer.createTransport({
@@ -199,10 +195,10 @@ async function sendEmail() {
     });
 
     const mailOptions = {
-        from: 'stelioslagaras@gmail.com',
+        from: req.body.name,
         to: 'stelioslagaras@gmail.com',
         subject: 'Geochess Contact Form',
-        text: 'Email content'
+        text: `Name:${req.body.name} --- Message:${req.body.inputMessage}`
     };
 
     transporter.sendMail(mailOptions, function (error, info) {
@@ -213,4 +209,7 @@ async function sendEmail() {
             // do something useful
         }
     });
-}
+
+    res.send({ status: 'SUCCESS' });
+
+})
