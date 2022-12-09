@@ -1,8 +1,9 @@
 import cheerio from 'cheerio'
 import axios from 'axios'
 import express, { json } from 'express';
-import greekCities from './greekCities.json' assert {type: 'json'}
-import tournaments from './tournaments.json' assert {type: 'json'}
+import greekCities from './countrycities/greekCities.json' assert {type: 'json'};
+import tournaments from './tournaments.json' assert {type: 'json'};
+import slim3countries from './slim3countries.json' assert { type: 'json' };
 import compression from 'compression';
 import helmet from 'helmet';
 import cors from 'cors'
@@ -36,10 +37,21 @@ app.get('/tournaments', async (req, res) => {
     res.json(tournaments)
 })
 
+// END --- express config --- //
 
-async function fetchFideTours() {
+//Globals Start
 
-    const baseUrl = "https://ratings.fide.com/tournament_list.phtml?country=GRE"
+const urls = ['GRE', 'BUL', 'ROU', 'MKD', 'ALB']
+
+
+// CountryJson = new Map()
+
+
+async function fetchFideTours(url) {
+
+    if (url == undefined) {
+        url = "https://ratings.fide.com/tournament_list.phtml?country=GRE"
+    }
     const Tournaments = []
 
     // const Urls = new Map()
@@ -54,7 +66,7 @@ async function fetchFideTours() {
 
     console.log("Welcome to GeoChess...")
     try {
-        const response = await axios.get(baseUrl, {
+        const response = await axios.get(url, {
             headers: {
                 "Accept-Encoding": null
             }
@@ -63,7 +75,12 @@ async function fetchFideTours() {
         let $ = cheerio.load(body);
 
 
-        let table = $("#main-col > table:nth-child(2) > tbody > tr:nth-child(3) > td > table:nth-child(10) > tbody") // this by copy js on dom element
+        const tbrow = $('tr > td > b').filter(function () {
+            return $(this).text().trim() === 'PGN';
+        })
+
+        // let tbody = (tbrow.parent().parent().parent().text())
+        const table = (tbrow.closest('tbody'))
         if (table.html() == null) {
             console.log("Fide page changed html structure")
             return (false)
@@ -102,9 +119,9 @@ async function fetchFideTours() {
 }
 
 
-function mapLoLa(Tour, GreekCities) {
+function mapLoLa(Tour, CountryCities) {
     let LatLon = null
-    for (let cityObj of GreekCities) {
+    for (let cityObj of CountryCities) {
         if ((String(Tour.location).localeCompare(String(cityObj.city), 'en-US', { ignorePunctuation: true, sensitivity: 'base' })) == 0) {
             // console.log(Tour.location," -- matched --", cityObj.city )
             Tour.lat = Number(cityObj.lat)
@@ -119,17 +136,24 @@ function mapLoLa(Tour, GreekCities) {
 }
 
 
-// import GreekCities from "./gr.json" assert { type: 'json' };
 
-async function main() {
+export async function main() {
     countermapped = 0;
     countermappedPlusNom = 0;
-    const Tournaments = await fetchFideTours()
+    const Tournaments = []
+    for (let url of urls) {
+        let tours = await fetchFideTours(`https://ratings.fide.com/tournament_list.phtml?country=${url}`)
+        for (const tour of tours) {
+            Tournaments.push(tour)
+        }
+    }
+    // console.log(Tournaments)
     if (!Tournaments) {
-        console.log("Abort...Error")
+        console.log("Abort...Tournaments from scrapping Error")
         return;
     }
     for (let Tour of Tournaments) {
+
         if (mapLoLa(Tour, greekCities)) {
 
         }
@@ -139,7 +163,7 @@ async function main() {
                 `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
                 new URLSearchParams({
                     format: "json",
-                    countrycodes: "gr",
+                    countrycodes: "gr,bg,ro,mk",
                     limit: "1",
                     addressdetails: "1",
                     "accept-language": "en-US,en"
@@ -163,7 +187,8 @@ async function main() {
         let data = JSON.stringify(Tournaments);
         fs.writeFileSync('tournaments.json', data);
     }
-    return (Tournaments)
+    // return (Tournaments)
+    return ('success') // for testing purposes
 }
 
 //cron job scheduler
@@ -213,3 +238,69 @@ app.post('/contact', multer().none(), (req, res) => {
     res.send({ status: 'SUCCESS' });
 
 })
+
+export async function test_scrapper(url) {
+    const Tournaments = []
+
+    const ObjFields = {
+        2: 'name',
+        3: 'location',
+        4: 'system',
+        5: 'startingDate',
+        6: 'linkInfo'
+    }
+
+    if (url == undefined) {
+        url = "https://ratings.fide.com/tournament_list.phtml?country=BUL"
+    }
+    try {
+        const response = await axios.get(url, {
+            headers: {
+                "Accept-Encoding": null
+            }
+        });
+        const body = await response.data;
+        let $ = cheerio.load(body);
+
+        let tbrow = $('tr > td > b').filter(function () {
+            return $(this).text().trim() === 'PGN';
+        })
+
+        // let tbody = (tbrow.parent().parent().parent().text())
+        let tbody = (tbrow.closest('tbody'))
+        // console.log(tbody.text())
+        // console.log('-------------')
+        // tbody = (tbrow.parent().parent().parent().text())
+        // console.log(tbody)
+
+        tbody.children('tr').each(function (i, el) {
+            if (i > 0) {
+                let tour = {}
+
+
+                // let children = el.children()
+                $(this).find('td').each((i, el) => {
+                    if (i > 1 && i < 6) {
+                        if (i == 3 || i == 5) {
+                            tour[ObjFields[i]] = $(el).text().trim()
+                        }
+                        else {
+                            tour[ObjFields[i]] = $(el).text()
+                        }
+                    }
+                    if (i == 6) {
+                        tour[ObjFields[i]] = $(el).find('a').attr('href')
+                    }
+                })
+                Tournaments.push(tour)
+            }
+
+        })
+    }
+    catch (error) {
+        console.error(error)
+    }
+    return (Tournaments)
+
+}
+
