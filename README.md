@@ -8,3 +8,7 @@ Then, every time the front-end askes for `/tournaments` the server repsonse with
 
 [1]: https://ratings.fide.com/tournament_list.phtml?country=GRE
 [2]: https://nominatim.org/release-docs/develop/api/Overview/
+
+# how to run function main() for testing purposes
+
+npx run-func scrapper-fide.js main
