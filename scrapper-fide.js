@@ -1,9 +1,6 @@
 import cheerio from 'cheerio'
 import axios from 'axios'
 import express, { json } from 'express';
-import greekCities from './countrycities/greekCities.json' assert {type: 'json'};
-import tournaments from './tournaments.json' assert {type: 'json'};
-import slim3countries from './slim3countries.json' assert { type: 'json' };
 import compression from 'compression';
 import helmet from 'helmet';
 import cors from 'cors'
@@ -11,6 +8,12 @@ import fs from 'fs'
 import cron from 'node-cron';
 import nodemailer from 'nodemailer'
 import multer from 'multer'
+// import greekCities from './countrycities/greekCities.json' assert {type: 'json'};
+// import * as cities from './countrycities/index.js';
+import jsonFiles from './countrycities/index.js';
+import tournaments from './tournaments.json' assert {type: 'json'};
+import slim3countries from './slim3countries.json' assert { type: 'json' };
+import { fidecountries } from './fidecountries.js';
 
 
 var corsOptions = {
@@ -41,7 +44,7 @@ app.get('/tournaments', async (req, res) => {
 
 //Globals Start
 
-const urls = ['GRE', 'BUL', 'ROU', 'MKD', 'ALB']
+// const urls = ['GRE', 'BUL', 'ROU', 'MKD', 'ALB']
 
 
 // CountryJson = new Map()
@@ -50,7 +53,7 @@ const urls = ['GRE', 'BUL', 'ROU', 'MKD', 'ALB']
 async function fetchFideTours(url) {
 
     if (url == undefined) {
-        url = "https://ratings.fide.com/tournament_list.phtml?country=GRE"
+        throw "country is not defined"
     }
     const Tournaments = []
 
@@ -83,7 +86,7 @@ async function fetchFideTours(url) {
         const table = (tbrow.closest('tbody'))
         if (table.html() == null) {
             console.log("Fide page changed html structure")
-            return (false)
+            return ([])
         }
         // console.log(table)
         // document.querySelector("#main-col > table:nth-child(2) > tbody > tr:nth-child(3) > td > table:nth-child(10) > tbody")
@@ -119,7 +122,7 @@ async function fetchFideTours(url) {
 }
 
 
-function mapLoLa(Tour, CountryCities) {
+function mapLoLa(Tour, CountryCities, country) {
     let LatLon = null
     for (let cityObj of CountryCities) {
         if ((String(Tour.location).localeCompare(String(cityObj.city), 'en-US', { ignorePunctuation: true, sensitivity: 'base' })) == 0) {
@@ -141,48 +144,70 @@ export async function main() {
     countermapped = 0;
     countermappedPlusNom = 0;
     const Tournaments = []
-    for (let url of urls) {
-        let tours = await fetchFideTours(`https://ratings.fide.com/tournament_list.phtml?country=${url}`)
+    // console.log(jsonFiles[0])
+    for (const countryname of fidecountries) {
+        console.log(countryname)
+        let country = slim3countries.filter((obj) => {
+            return obj.name === countryname
+        })
+        country = country[0]
+        console.log(country)
+        if (!country) {
+            console.log(`Country ${countryname} could not be found in list`)
+            continue
+        }
+
+        let tours = await fetchFideTours(`https://ratings.fide.com/tournament_list.phtml?country=${country.NOC}`)
+        if (tours.length === 0) {
+            console.log(`country ${country.name} has zero tournaments...`)
+            continue
+        }
         for (const tour of tours) {
+            tour.country = country['alpha-2']
             Tournaments.push(tour)
         }
-    }
-    // console.log(Tournaments)
-    if (!Tournaments) {
-        console.log("Abort...Tournaments from scrapping Error")
-        return;
-    }
-    for (let Tour of Tournaments) {
 
-        if (mapLoLa(Tour, greekCities)) {
-
+        // console.log(Tournaments)
+        if (!Tournaments) {
+            console.log("Abort...Tournaments from scrapping Error")
+            return;
         }
-        else {
-            // console.log("Not found teri: " + Tour.location)
-            const response = await fetch(
-                `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
-                new URLSearchParams({
-                    format: "json",
-                    countrycodes: "gr,bg,ro,mk",
-                    limit: "1",
-                    addressdetails: "1",
-                    "accept-language": "en-US,en"
-                })
-            );
-            const nominatim = await response.json();
+        const cities = await import(`./countrycities/${jsonFiles[0]}`, {
+            assert: { type: "json" },
+        })
+        // console.log(cities.default)
+        for (let Tour of Tournaments) {
+            if (mapLoLa(Tour, cities.default,)) {
 
-            // add Tour marker
-            if (!(Object.keys(nominatim).length === 0)) {
-                // console.log(`${Tour.location}<-Mapped->`);
-                // console.log(nominatim[0])
-                Tour.lat = Number(nominatim[0].lat)
-                Tour.lon = Number(nominatim[0].lon)
-                countermappedPlusNom++
+            }
+            else {
+                // console.log("Not found teri: " + Tour.location)
+                const response = await fetch(
+                    `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
+                    new URLSearchParams({
+                        format: "json",
+                        countrycodes: country['alpha-2'],
+                        limit: "1",
+                        addressdetails: "1",
+                        "accept-language": "en-US,en"
+                    })
+                );
+                const nominatim = await response.json();
+
+                // add Tour marker
+                if (!(Object.keys(nominatim).length === 0)) {
+                    // console.log(`${Tour.location}<-Mapped->`);
+                    // console.log(nominatim[0])
+                    Tour.lat = Number(nominatim[0].lat)
+                    Tour.lon = Number(nominatim[0].lon)
+                    countermappedPlusNom++
+                }
             }
         }
+        console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
+
     }
     // console.log(Tournaments)
-    console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
     if (Tournaments.length > 1) {
         let data = JSON.stringify(Tournaments);
         fs.writeFileSync('tournaments.json', data);
@@ -239,68 +264,6 @@ app.post('/contact', multer().none(), (req, res) => {
 
 })
 
-export async function test_scrapper(url) {
-    const Tournaments = []
-
-    const ObjFields = {
-        2: 'name',
-        3: 'location',
-        4: 'system',
-        5: 'startingDate',
-        6: 'linkInfo'
-    }
-
-    if (url == undefined) {
-        url = "https://ratings.fide.com/tournament_list.phtml?country=BUL"
-    }
-    try {
-        const response = await axios.get(url, {
-            headers: {
-                "Accept-Encoding": null
-            }
-        });
-        const body = await response.data;
-        let $ = cheerio.load(body);
-
-        let tbrow = $('tr > td > b').filter(function () {
-            return $(this).text().trim() === 'PGN';
-        })
-
-        // let tbody = (tbrow.parent().parent().parent().text())
-        let tbody = (tbrow.closest('tbody'))
-        // console.log(tbody.text())
-        // console.log('-------------')
-        // tbody = (tbrow.parent().parent().parent().text())
-        // console.log(tbody)
-
-        tbody.children('tr').each(function (i, el) {
-            if (i > 0) {
-                let tour = {}
 
 
-                // let children = el.children()
-                $(this).find('td').each((i, el) => {
-                    if (i > 1 && i < 6) {
-                        if (i == 3 || i == 5) {
-                            tour[ObjFields[i]] = $(el).text().trim()
-                        }
-                        else {
-                            tour[ObjFields[i]] = $(el).text()
-                        }
-                    }
-                    if (i == 6) {
-                        tour[ObjFields[i]] = $(el).find('a').attr('href')
-                    }
-                })
-                Tournaments.push(tour)
-            }
-
-        })
-    }
-    catch (error) {
-        console.error(error)
-    }
-    return (Tournaments)
-
-}
-
+// main()

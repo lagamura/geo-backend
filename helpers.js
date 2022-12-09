@@ -1,25 +1,20 @@
-async function addTourMarkers() {
-    for (let Tour of Tours) {
-        const response = await fetch(
-            `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
-            new URLSearchParams({
-                format: "json",
-                countrycodes: "gr",
-                limit: "1",
-            })
-        );
-        // translate Tour to geodata
-        const nominatim = await response.json();
-        // add Tour marker
-        if (!(Object.keys(nominatim).length === 0)) {
-            console.log(nominatim);
-            L.marker([nominatim[0].lat, nominatim[0].lon]) //[lat,lon]
-                .addTo(map)
-                .bindPopup(
-                    `${nominatim[0].display_name} \n ----
-         ${Tour.name} ----- ${Tour.location} ----- ${Tour.linkInfo}`
-                )
-                .openPopup();
+import NOCcode from './NOCcode.json' assert {type: 'json'};
+import slim3countries from './slim3countries.json' assert {type: 'json'}
+import fs from 'fs'
+
+
+
+export function mergejson(slim3countries, NOCcode) {
+    for (let country of NOCcode) {
+        for (let slimcountry of slim3countries) {
+            if (slimcountry.name === country.Country) {
+                slimcountry["alpha-2"] = country["ISO code"]
+                console.log('changed something')
+            }
         }
     }
+    let data = JSON.stringify(slim3countries);
+    fs.writeFileSync('slim3countries.json', data);
 }
+
+mergejson(slim3countries, NOCcode)
