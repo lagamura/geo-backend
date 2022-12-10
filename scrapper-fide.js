@@ -1,8 +1,6 @@
 import cheerio from 'cheerio'
 import axios from 'axios'
 import express, { json } from 'express';
-import greekCities from './greekCities.json' assert {type: 'json'}
-import tournaments from './tournaments.json' assert {type: 'json'}
 import compression from 'compression';
 import helmet from 'helmet';
 import cors from 'cors'
@@ -10,6 +8,12 @@ import fs from 'fs'
 import cron from 'node-cron';
 import nodemailer from 'nodemailer'
 import multer from 'multer'
+// import greekCities from './countrycities/greekCities.json' assert {type: 'json'};
+// import * as cities from './countrycities/index.js';
+// import jsonFiles from './countrycities/index.js';
+import tournaments from './tournaments.json' assert {type: 'json'};
+import slim3countries from './slim3countries.json' assert { type: 'json' };
+import { fidecountries } from './fidecountries.js';
 
 
 var corsOptions = {
@@ -36,10 +40,21 @@ app.get('/tournaments', async (req, res) => {
     res.json(tournaments)
 })
 
+// END --- express config --- //
 
-async function fetchFideTours() {
+//Globals Start
 
-    const baseUrl = "https://ratings.fide.com/tournament_list.phtml?country=GRE"
+// const urls = ['GRE', 'BUL', 'ROU', 'MKD', 'ALB']
+
+
+// CountryJson = new Map()
+
+
+async function fetchFideTours(url) {
+
+    if (url == undefined) {
+        throw "country is not defined"
+    }
     const Tournaments = []
 
     // const Urls = new Map()
@@ -54,7 +69,7 @@ async function fetchFideTours() {
 
     console.log("Welcome to GeoChess...")
     try {
-        const response = await axios.get(baseUrl, {
+        const response = await axios.get(url, {
             headers: {
                 "Accept-Encoding": null
             }
@@ -63,10 +78,15 @@ async function fetchFideTours() {
         let $ = cheerio.load(body);
 
 
-        let table = $("#main-col > table:nth-child(2) > tbody > tr:nth-child(3) > td > table:nth-child(10) > tbody") // this by copy js on dom element
+        const tbrow = $('tr > td > b').filter(function () {
+            return $(this).text().trim() === 'PGN';
+        })
+
+        // let tbody = (tbrow.parent().parent().parent().text())
+        const table = (tbrow.closest('tbody'))
         if (table.html() == null) {
             console.log("Fide page changed html structure")
-            return (false)
+            return ([])
         }
         // console.log(table)
         // document.querySelector("#main-col > table:nth-child(2) > tbody > tr:nth-child(3) > td > table:nth-child(10) > tbody")
@@ -102,9 +122,9 @@ async function fetchFideTours() {
 }
 
 
-function mapLoLa(Tour, GreekCities) {
+function mapLoLa(Tour, CountryCities, country) {
     let LatLon = null
-    for (let cityObj of GreekCities) {
+    for (let cityObj of CountryCities) {
         if ((String(Tour.location).localeCompare(String(cityObj.city), 'en-US', { ignorePunctuation: true, sensitivity: 'base' })) == 0) {
             // console.log(Tour.location," -- matched --", cityObj.city )
             Tour.lat = Number(cityObj.lat)
@@ -119,51 +139,81 @@ function mapLoLa(Tour, GreekCities) {
 }
 
 
-// import GreekCities from "./gr.json" assert { type: 'json' };
 
-async function main() {
+export async function main() {
     countermapped = 0;
     countermappedPlusNom = 0;
-    const Tournaments = await fetchFideTours()
-    if (!Tournaments) {
-        console.log("Abort...Error")
-        return;
-    }
-    for (let Tour of Tournaments) {
-        if (mapLoLa(Tour, greekCities)) {
-
+    const Tournaments = []
+    // console.log(jsonFiles[0])
+    for (const countryname of fidecountries) {
+        console.log(countryname)
+        let country = slim3countries.filter((obj) => {
+            return obj.name === countryname
+        })
+        country = country[0]
+        console.log(country)
+        if (!country) {
+            console.log(`Country ${countryname} could not be found in list`)
+            continue
         }
-        else {
-            // console.log("Not found teri: " + Tour.location)
-            const response = await fetch(
-                `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
-                new URLSearchParams({
-                    format: "json",
-                    countrycodes: "gr",
-                    limit: "1",
-                    addressdetails: "1",
-                    "accept-language": "en-US,en"
-                })
-            );
-            const nominatim = await response.json();
 
-            // add Tour marker
-            if (!(Object.keys(nominatim).length === 0)) {
-                // console.log(`${Tour.location}<-Mapped->`);
-                // console.log(nominatim[0])
-                Tour.lat = Number(nominatim[0].lat)
-                Tour.lon = Number(nominatim[0].lon)
-                countermappedPlusNom++
+        let tours = await fetchFideTours(`https://ratings.fide.com/tournament_list.phtml?country=${country.NOC}`)
+        if (tours.length === 0) {
+            console.log(`country ${country.name} has zero tournaments...`)
+            continue
+        }
+        for (const tour of tours) {
+            tour.country = country['alpha-2']
+            Tournaments.push(tour)
+        }
+
+        // console.log(Tournaments)
+        if (!Tournaments) {
+            console.log("Abort...Tournaments from scrapping Error")
+            return;
+        }
+        const cities = await import(`./countries/${country['alpha-3'].toLowerCase()}.json`, {
+            assert: { type: "json" },
+        })
+        // console.log(cities.default)
+        for (let Tour of Tournaments) {
+            if (mapLoLa(Tour, cities.default,)) {
+
             }
+            // else {
+            //     // console.log("Not found teri: " + Tour.location)
+            //     const response = await fetch(
+            //         `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
+            //         new URLSearchParams({
+            //             format: "json",
+            //             countrycodes: country['alpha-2'],
+            //             limit: "1",
+            //             addressdetails: "1",
+            //             "accept-language": "en-US,en"
+            //         })
+            //     );
+            //     const nominatim = await response.json();
+
+            //     // add Tour marker
+            //     if (!(Object.keys(nominatim).length === 0)) {
+            //         // console.log(`${Tour.location}<-Mapped->`);
+            //         // console.log(nominatim[0])
+            //         Tour.lat = Number(nominatim[0].lat)
+            //         Tour.lon = Number(nominatim[0].lon)
+            //         countermappedPlusNom++
+            //     }
+            // }
         }
+        console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
+
     }
     // console.log(Tournaments)
-    console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
     if (Tournaments.length > 1) {
         let data = JSON.stringify(Tournaments);
         fs.writeFileSync('tournaments.json', data);
     }
-    return (Tournaments)
+    // return (Tournaments)
+    return ('success') // for testing purposes
 }
 
 //cron job scheduler
