@@ -1,1 +1,12 @@
-[{"city": "Oranjestad", "lat": 12.5186, "lng": -70.0358}, {"city": "Tanki Leendert", "lat": 12.5418, "lng": -70.022}]
+[
+    {
+        "city": "Oranjestad",
+        "lat": 12.5186,
+        "lng": -70.0358
+    },
+    {
+        "city": "Tanki Leendert",
+        "lat": 12.5418,
+        "lng": -70.022
+    }
+]

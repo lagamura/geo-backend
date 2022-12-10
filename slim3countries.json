@@ -28,7 +28,9 @@
     {
         "name": "American Samoa",
         "alpha-3": "ASM",
-        "country-code": "016"
+        "country-code": "016",
+        "alpha-2": "WS",
+        "NOC": "SAM"
     },
     {
         "name": "Andorra",
@@ -172,12 +174,16 @@
     {
         "name": "Bolivia (Plurinational State of)",
         "alpha-3": "BOL",
-        "country-code": "068"
+        "country-code": "068",
+        "alpha-2": "BO",
+        "NOC": "BOL"
     },
     {
         "name": "Bolivia",
         "alpha-3": "BOL",
-        "country-code": "068"
+        "country-code": "068",
+        "alpha-2": "BO",
+        "NOC": "BOL"
     },
     {
         "name": "Bonaire, Sint Eustatius and Saba",
@@ -220,12 +226,16 @@
     {
         "name": "British Indian Ocean Territory",
         "alpha-3": "IOT",
-        "country-code": "086"
+        "country-code": "086",
+        "alpha-2": "IN",
+        "NOC": "IND"
     },
     {
         "name": "Brunei Darussalam",
         "alpha-3": "BRN",
-        "country-code": "096"
+        "country-code": "096",
+        "alpha-2": "BN",
+        "NOC": "BRU"
     },
     {
         "name": "Bulgaria",
@@ -341,7 +351,9 @@
     {
         "name": "Congo, Democratic Republic of the",
         "alpha-3": "COD",
-        "country-code": "180"
+        "country-code": "180",
+        "alpha-2": "CG",
+        "NOC": "CGO"
     },
     {
         "name": "Cook Islands",
@@ -396,7 +408,9 @@
     {
         "name": "Czech Republic",
         "alpha-3": "CZE",
-        "country-code": "203"
+        "country-code": "203",
+        "alpha-2": "CZ",
+        "NOC": "CZE"
     },
     {
         "name": "Denmark",
@@ -451,8 +465,8 @@
         "name": "Equatorial Guinea",
         "alpha-3": "GNQ",
         "country-code": "226",
-        "NOC": "GEQ",
-        "alpha-2": "GQ"
+        "NOC": "GUI",
+        "alpha-2": "GN"
     },
     {
         "name": "Eritrea",
@@ -690,7 +704,9 @@
     {
         "name": "Iran (Islamic Republic of)",
         "alpha-3": "IRN",
-        "country-code": "364"
+        "country-code": "364",
+        "alpha-2": "IR",
+        "NOC": "IRI"
     },
     {
         "name": "Iran (Islamic Republic of)",
@@ -975,12 +991,16 @@
     {
         "name": "Micronesia (Federated States of)",
         "alpha-3": "FSM",
-        "country-code": "583"
+        "country-code": "583",
+        "alpha-2": "FM",
+        "NOC": "FSM"
     },
     {
         "name": "Moldova, Republic of",
         "alpha-3": "MDA",
-        "country-code": "498"
+        "country-code": "498",
+        "alpha-2": "MD",
+        "NOC": "MDA"
     },
     {
         "name": "Monaco",
@@ -1099,7 +1119,9 @@
     {
         "name": "North Macedonia",
         "alpha-3": "MKD",
-        "country-code": "807"
+        "country-code": "807",
+        "alpha-2": "MK",
+        "NOC": "MKD"
     },
     {
         "name": "Former YUG Rep of Macedonia",
@@ -1229,7 +1251,9 @@
     {
         "name": "Russian Federation",
         "alpha-3": "RUS",
-        "country-code": "643"
+        "country-code": "643",
+        "alpha-2": "RU",
+        "NOC": "RUS"
     },
     {
         "name": "Rwanda",
@@ -1385,12 +1409,16 @@
     {
         "name": "South Georgia and the South Sandwich Islands",
         "alpha-3": "SGS",
-        "country-code": "239"
+        "country-code": "239",
+        "alpha-2": "GE",
+        "NOC": "GEO"
     },
     {
         "name": "South Sudan",
         "alpha-3": "SSD",
-        "country-code": "728"
+        "country-code": "728",
+        "alpha-2": "SD",
+        "NOC": "SUD"
     },
     {
         "name": "Spain",
@@ -1449,12 +1477,16 @@
     {
         "name": "Syrian Arab Republic",
         "alpha-3": "SYR",
-        "country-code": "760"
+        "country-code": "760",
+        "alpha-2": "SY",
+        "NOC": "SYR"
     },
     {
         "name": "Syria",
         "alpha-3": "SYR",
-        "country-code": "760"
+        "country-code": "760",
+        "alpha-2": "SY",
+        "NOC": "SYR"
     },
     {
         "name": "Taiwan, Province of China",
@@ -1480,7 +1512,9 @@
     {
         "name": "Tanzania, United Republic of",
         "alpha-3": "TZA",
-        "country-code": "834"
+        "country-code": "834",
+        "alpha-2": "TZ",
+        "NOC": "TAN"
     },
     {
         "name": "Thailand",
@@ -1596,12 +1630,16 @@
     {
         "name": "United States of America",
         "alpha-3": "USA",
-        "country-code": "840"
+        "country-code": "840",
+        "alpha-2": "US",
+        "NOC": "USA"
     },
     {
         "name": "United States Minor Outlying Islands",
         "alpha-3": "UMI",
-        "country-code": "581"
+        "country-code": "581",
+        "alpha-2": "US",
+        "NOC": "USA"
     },
     {
         "name": "Uruguay",
@@ -1627,7 +1665,9 @@
     {
         "name": "Venezuela (Bolivarian Republic of)",
         "alpha-3": "VEN",
-        "country-code": "862"
+        "country-code": "862",
+        "alpha-2": "VE",
+        "NOC": "VEN"
     },
     {
         "name": "Viet Nam",
@@ -1637,7 +1677,9 @@
     {
         "name": "Vietnam",
         "alpha-3": "VNM",
-        "country-code": "704"
+        "country-code": "704",
+        "alpha-2": "VN",
+        "NOC": "VIE"
     },
     {
         "name": "Virgin Islands (British)",
@@ -1647,7 +1689,9 @@
     {
         "name": "British Virgin Islands",
         "alpha-3": "VGB",
-        "country-code": "092"
+        "country-code": "092",
+        "alpha-2": "VG",
+        "NOC": "IVB"
     },
     {
         "name": "Virgin Islands (U.S.)",

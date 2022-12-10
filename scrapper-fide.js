@@ -42,13 +42,6 @@ app.get('/tournaments', async (req, res) => {
 
 // END --- express config --- //
 
-//Globals Start
-
-// const urls = ['GRE', 'BUL', 'ROU', 'MKD', 'ALB']
-
-
-// CountryJson = new Map()
-
 
 async function fetchFideTours(url) {
 
@@ -129,7 +122,7 @@ function mapLoLa(Tour, CountryCities, country) {
             // console.log(Tour.location," -- matched --", cityObj.city )
             Tour.lat = Number(cityObj.lat)
             Tour.lon = Number(cityObj.lng)
-            Tour.region = cityObj.admin_name
+            // Tour.region = cityObj.admin_name
             countermapped++
             LatLon = [Tour.lat, Tour.lon]
             break
@@ -145,6 +138,7 @@ export async function main() {
     countermappedPlusNom = 0;
     const Tournaments = []
     // console.log(jsonFiles[0])
+    // let fidecountriestest = ["Romania"]
     for (const countryname of fidecountries) {
         console.log(countryname)
         let country = slim3countries.filter((obj) => {
@@ -226,7 +220,7 @@ export async function main() {
 }
 
 //cron job scheduler
-cron.schedule(`0 0 * * *`, async () => {
+cron.schedule(`0 0 * * 0`, async () => {
     main();
 });
 
@@ -281,3 +275,5 @@ const keypress = async () => {
         resolve()
     }))
 }
+
+// await main()
