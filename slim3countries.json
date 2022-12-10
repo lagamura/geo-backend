@@ -175,12 +175,24 @@
         "country-code": "068"
     },
     {
+        "name": "Bolivia",
+        "alpha-3": "BOL",
+        "country-code": "068"
+    },
+    {
         "name": "Bonaire, Sint Eustatius and Saba",
         "alpha-3": "BES",
         "country-code": "535"
     },
     {
         "name": "Bosnia and Herzegovina",
+        "alpha-3": "BIH",
+        "country-code": "070",
+        "NOC": "BIH",
+        "alpha-2": "BA"
+    },
+    {
+        "name": "Bosnia & Herzegovina",
         "alpha-3": "BIH",
         "country-code": "070",
         "NOC": "BIH",
@@ -378,6 +390,11 @@
     },
     {
         "name": "Czechia",
+        "alpha-3": "CZE",
+        "country-code": "203"
+    },
+    {
+        "name": "Czech Republic",
         "alpha-3": "CZE",
         "country-code": "203"
     },
@@ -676,6 +693,13 @@
         "country-code": "364"
     },
     {
+        "name": "Iran (Islamic Republic of)",
+        "alpha-3": "IRN",
+        "country-code": "364",
+        "NOC": "IRI",
+        "alpha-2": "IR"
+    },
+    {
         "name": "Iraq",
         "alpha-3": "IRQ",
         "country-code": "368",
@@ -761,7 +785,16 @@
     {
         "name": "Korea, Republic of",
         "alpha-3": "KOR",
-        "country-code": "410"
+        "country-code": "410",
+        "NOC": "KOR",
+        "alpha-2": "KR"
+    },
+    {
+        "name": "South Korea, Republic of",
+        "alpha-3": "KOR",
+        "country-code": "410",
+        "NOC": "KOR",
+        "alpha-2": "KR"
     },
     {
         "name": "Kuwait",
@@ -780,7 +813,16 @@
     {
         "name": "Lao People's Democratic Republic",
         "alpha-3": "LAO",
-        "country-code": "418"
+        "country-code": "418",
+        "NOC": "LAO",
+        "alpha-2": "LA"
+    },
+    {
+        "name": "Laos",
+        "alpha-3": "LAO",
+        "country-code": "418",
+        "NOC": "LAO",
+        "alpha-2": "LA"
     },
     {
         "name": "Latvia",
@@ -841,7 +883,16 @@
     {
         "name": "Macao",
         "alpha-3": "MAC",
-        "country-code": "446"
+        "country-code": "446",
+        "NOC": "MAC",
+        "alpha-2": "MO"
+    },
+    {
+        "name": "Macau",
+        "alpha-3": "MAC",
+        "country-code": "446",
+        "NOC": "MAC",
+        "alpha-2": "MO"
     },
     {
         "name": "Madagascar",
@@ -1051,6 +1102,13 @@
         "country-code": "807"
     },
     {
+        "name": "Former YUG Rep of Macedonia",
+        "alpha-3": "MKD",
+        "country-code": "807",
+        "NOC": "MKD",
+        "alpha-2": "MK"
+    },
+    {
         "name": "Northern Mariana Islands",
         "alpha-3": "MNP",
         "country-code": "580"
@@ -1086,7 +1144,9 @@
     {
         "name": "Palestine, State of",
         "alpha-3": "PSE",
-        "country-code": "275"
+        "country-code": "275",
+        "NOC": "PLE",
+        "alpha-2": "PS"
     },
     {
         "name": "Panama",
@@ -1361,6 +1421,13 @@
         "alpha-2": "SR"
     },
     {
+        "name": "Surinam",
+        "alpha-3": "SUR",
+        "country-code": "740",
+        "NOC": "SUR",
+        "alpha-2": "SR"
+    },
+    {
         "name": "Svalbard and Jan Mayen",
         "alpha-3": "SJM",
         "country-code": "744"
@@ -1385,9 +1452,23 @@
         "country-code": "760"
     },
     {
+        "name": "Syria",
+        "alpha-3": "SYR",
+        "country-code": "760"
+    },
+    {
         "name": "Taiwan, Province of China",
         "alpha-3": "TWN",
-        "country-code": "158"
+        "country-code": "158",
+        "NOC": "TPE",
+        "alpha-2": "TW"
+    },
+    {
+        "name": "Chinese Taipei",
+        "alpha-3": "TWN",
+        "country-code": "158",
+        "NOC": "TPE",
+        "alpha-2": "TW"
     },
     {
         "name": "Tajikistan",
@@ -1434,6 +1515,13 @@
     },
     {
         "name": "Trinidad and Tobago",
+        "alpha-3": "TTO",
+        "country-code": "780",
+        "NOC": "TRI",
+        "alpha-2": "TT"
+    },
+    {
+        "name": "Trinidad & Tobago",
         "alpha-3": "TTO",
         "country-code": "780",
         "NOC": "TRI",
@@ -1494,7 +1582,16 @@
     {
         "name": "United Kingdom of Great Britain and Northern Ireland",
         "alpha-3": "GBR",
-        "country-code": "826"
+        "country-code": "826",
+        "NOC": "GBR",
+        "alpha-2": "GB"
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland, England, Scotland, Wales",
+        "alpha-3": "GBR",
+        "country-code": "826",
+        "NOC": "GBR",
+        "alpha-2": "GB"
     },
     {
         "name": "United States of America",
@@ -1538,14 +1635,33 @@
         "country-code": "704"
     },
     {
+        "name": "Vietnam",
+        "alpha-3": "VNM",
+        "country-code": "704"
+    },
+    {
         "name": "Virgin Islands (British)",
+        "alpha-3": "VGB",
+        "country-code": "092"
+    },
+    {
+        "name": "British Virgin Islands",
         "alpha-3": "VGB",
         "country-code": "092"
     },
     {
         "name": "Virgin Islands (U.S.)",
         "alpha-3": "VIR",
-        "country-code": "850"
+        "country-code": "850",
+        "NOC": "ISV",
+        "alpha-2": "VI"
+    },
+    {
+        "name": "US Virgin Islands",
+        "alpha-3": "VIR",
+        "country-code": "850",
+        "NOC": "ISV",
+        "alpha-2": "VI"
     },
     {
         "name": "Wallis and Futuna",

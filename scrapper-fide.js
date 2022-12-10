@@ -148,12 +148,14 @@ export async function main() {
     for (const countryname of fidecountries) {
         console.log(countryname)
         let country = slim3countries.filter((obj) => {
-            return obj.name === countryname
+            return obj.name.includes(countryname)
         })
         country = country[0]
         console.log(country)
         if (!country) {
             console.log(`Country ${countryname} could not be found in list`)
+            // await keypress()
+
             continue
         }
 
@@ -172,9 +174,16 @@ export async function main() {
             console.log("Abort...Tournaments from scrapping Error")
             return;
         }
-        const cities = await import(`./countries/${country['alpha-3'].toLowerCase()}.json`, {
-            assert: { type: "json" },
-        })
+        let cities = []
+        try {
+            cities = await import(`./countries/${country['alpha-3'].toLowerCase()}.json`, {
+                assert: { type: "json" },
+            })
+        }
+        catch (error) {
+            console.error(`Could not load cities json file: ${error}. Continue...`)
+            continue
+        }
         // console.log(cities.default)
         for (let Tour of Tournaments) {
             if (mapLoLa(Tour, cities.default,)) {
@@ -263,3 +272,12 @@ app.post('/contact', multer().none(), (req, res) => {
     res.send({ status: 'SUCCESS' });
 
 })
+
+
+const keypress = async () => {
+    process.stdin.setRawMode(true)
+    return new Promise(resolve => process.stdin.once('data', () => {
+        process.stdin.setRawMode(false)
+        resolve()
+    }))
+}

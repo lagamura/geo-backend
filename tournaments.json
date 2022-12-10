@@ -2509,6 +2509,24 @@
         "country": "BD"
     },
     {
+        "name": "Rangpur 2nd Standard Rating Chess tournament, Below-2000",
+        "location": "Rangpur",
+        "system": "s",
+        "startingDate": "2022-12-14",
+        "linkInfo": "tournament_details.phtml?event=311367",
+        "country": "BD",
+        "lat": 25.75,
+        "lon": 89.2444
+    },
+    {
+        "name": "Rajnagar International Open Rapid Rating Chess Tournament 2022",
+        "location": "Moulvibazar",
+        "system": "s",
+        "startingDate": "2022-12-15",
+        "linkInfo": "tournament_details.phtml?event=311387",
+        "country": "BD"
+    },
+    {
         "country": "BD"
     },
     {
@@ -3727,6 +3745,104 @@
     },
     {
         "country": "BE"
+    },
+    {
+        "name": "GM Tournament Bijeljina 2022",
+        "location": "Bijeljina",
+        "system": "r",
+        "startingDate": "2022-12-09",
+        "linkInfo": "tournament_details.phtml?event=307914",
+        "country": "BA",
+        "lat": 44.75,
+        "lon": 19.2167
+    },
+    {
+        "name": "GM Tournament Bijeljina 2022 - 2",
+        "location": "Bijeljina",
+        "system": "r",
+        "startingDate": "2022-12-13",
+        "linkInfo": "tournament_details.phtml?event=307917",
+        "country": "BA",
+        "lat": 44.75,
+        "lon": 19.2167
+    },
+    {
+        "name": "5. Memorijalni turnir \"Zvonimir Mestrovic 2022\"",
+        "location": "Sarajevo",
+        "system": "s",
+        "startingDate": "2022-12-04",
+        "linkInfo": "tournament_details.phtml?event=307921",
+        "country": "BA",
+        "lat": 43.8563,
+        "lon": 18.4132
+    },
+    {
+        "name": "6 Memorijalni sahovski turnir \"Almin Djulic\"",
+        "location": "Buzim",
+        "system": "s",
+        "startingDate": "2022-12-04",
+        "linkInfo": "tournament_details.phtml?event=310169",
+        "country": "BA"
+    },
+    {
+        "name": "Pojedinacni, medjunarodni, otvoreni sahovski Rapid turnir Euroinvest Muhic 2022",
+        "location": "Gornja Koprivna",
+        "system": "s",
+        "startingDate": "2022-12-28",
+        "linkInfo": "tournament_details.phtml?event=310175",
+        "country": "BA"
+    },
+    {
+        "name": "51. Medjunarodni sahovski turnir \"Bosna 2022\"",
+        "location": "Sarajevo",
+        "system": "s",
+        "startingDate": "2022-12-02",
+        "linkInfo": "tournament_details.phtml?event=310178",
+        "country": "BA",
+        "lat": 43.8563,
+        "lon": 18.4132
+    },
+    {
+        "name": "Memorijalni sahovski turnir \"SAHISTI ZIVE VJECNO U SJECANJU\"",
+        "location": "Nova Topola",
+        "system": "s",
+        "startingDate": "2022-12-10",
+        "linkInfo": "tournament_details.phtml?event=310179",
+        "country": "BA"
+    },
+    {
+        "name": "Pojedimacno prvenstvo Republike Srpske za 2022. godinu",
+        "location": "Visegrad",
+        "system": "s",
+        "startingDate": "2022-12-08",
+        "linkInfo": "tournament_details.phtml?event=310684",
+        "country": "BA",
+        "lat": 43.7833,
+        "lon": 19.2833
+    },
+    {
+        "name": "IT Chess Cup AgentLocator 2022",
+        "location": "Sarajevo",
+        "system": "r",
+        "startingDate": "2022-12-27",
+        "linkInfo": "tournament_details.phtml?event=311072",
+        "country": "BA",
+        "lat": 43.8563,
+        "lon": 18.4132
+    },
+    {
+        "country": "BA"
+    },
+    {
+        "name": "Sjecanje na Mirka Barbica",
+        "location": "Gromiljak",
+        "system": "s",
+        "startingDate": "2023-02-04",
+        "linkInfo": "tournament_details.phtml?event=310583",
+        "country": "BA"
+    },
+    {
+        "country": "BA"
     },
     {
         "name": "Goiano de Xadrez RPD 2022",
@@ -5082,7 +5198,7 @@
     {
         "name": "IRT Primer Evento Prejuegos Clasificatorio VI Juegos Paranacionales Eje Cafetero 2023 Ajedrez Clasico B2 y B3 femenino",
         "location": "Bogota",
-        "system": "s",
+        "system": "r",
         "startingDate": "2022-12-06",
         "linkInfo": "tournament_details.phtml?event=310069",
         "country": "CO",
@@ -9795,6 +9911,59 @@
     },
     {
         "country": "FI"
+    },
+    {
+        "name": "Otvoreno prvenstvo na grad Skopje za mladi vo standarden sah 2022 - U12",
+        "location": "Skopje",
+        "system": "s",
+        "startingDate": "2022-12-03",
+        "linkInfo": "tournament_details.phtml?event=308635",
+        "country": "MK",
+        "lat": 41.9833,
+        "lon": 21.4333
+    },
+    {
+        "name": "BALKAN Youth Team Championship 2022 U18 - Group A",
+        "location": "Tetovo",
+        "system": "t",
+        "startingDate": "2022-12-09",
+        "linkInfo": "tournament_details.phtml?event=310056",
+        "country": "MK",
+        "lat": 42.0103,
+        "lon": 20.9714
+    },
+    {
+        "name": "BALKAN Youth Team Championship 2022 U18 - Group B",
+        "location": "Tetovo",
+        "system": "t",
+        "startingDate": "2022-12-09",
+        "linkInfo": "tournament_details.phtml?event=311269",
+        "country": "MK",
+        "lat": 42.0103,
+        "lon": 20.9714
+    },
+    {
+        "name": "BALKAN Youth Team Championship 2022 U18 - Final Group (I - IV place)",
+        "location": "Tetovo",
+        "system": "t",
+        "startingDate": "2022-12-11",
+        "linkInfo": "tournament_details.phtml?event=311270",
+        "country": "MK",
+        "lat": 42.0103,
+        "lon": 20.9714
+    },
+    {
+        "name": "BALKAN Youth Team Championship 2022 U18 - Final Group (V - VIII place)",
+        "location": "Tetovo",
+        "system": "t",
+        "startingDate": "2022-12-11",
+        "linkInfo": "tournament_details.phtml?event=311271",
+        "country": "MK",
+        "lat": 42.0103,
+        "lon": 20.9714
+    },
+    {
+        "country": "MK"
     },
     {
         "name": "Team 2023 - Nationale 2 r4",
@@ -20148,8 +20317,8 @@
         "startingDate": "2022-11-28",
         "linkInfo": "tournament_details.phtml?event=307835",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "name": "Blitz Roque Dec 2022 - GP6.7",
@@ -20158,8 +20327,8 @@
         "startingDate": "2022-12-05",
         "linkInfo": "tournament_details.phtml?event=307836",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "name": "2022 team Rapid ESSAMTH",
@@ -20248,8 +20417,8 @@
         "startingDate": "2022-11-19",
         "linkInfo": "tournament_details.phtml?event=308583",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "name": "1st TEE TDE rapid Dec 2022",
@@ -20258,8 +20427,8 @@
         "startingDate": "2022-12-11",
         "linkInfo": "tournament_details.phtml?event=308584",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "name": "12th team U16 ESSDE",
@@ -20306,8 +20475,8 @@
         "startingDate": "2022-11-27",
         "linkInfo": "tournament_details.phtml?event=309221",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "name": "2nd Autumn Rapid Evoiki ES Nov 2022",
@@ -20804,8 +20973,8 @@
         "startingDate": "2022-12-12",
         "linkInfo": "tournament_details.phtml?event=311125",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "name": "Christmas Days NEP 2022",
@@ -20814,8 +20983,8 @@
         "startingDate": "2022-12-17",
         "linkInfo": "tournament_details.phtml?event=311127",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "name": "48th Christmas School Rapid AO Foinix 2022",
@@ -20854,8 +21023,8 @@
         "startingDate": "2022-12-19",
         "linkInfo": "tournament_details.phtml?event=311334",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "country": "GR"
@@ -21044,8 +21213,8 @@
         "startingDate": "2023-01-08",
         "linkInfo": "tournament_details.phtml?event=311132",
         "country": "GR",
-        "lat": 22.2194,
-        "lon": 88.2142
+        "lat": 38.25,
+        "lon": 21.7333
     },
     {
         "country": "GR"
@@ -22899,979 +23068,6 @@
     },
     {
         "country": "IS"
-    },
-    {
-        "name": "TATA Steel Chess India Rapid-2022",
-        "location": "Kolkata",
-        "system": "r",
-        "startingDate": "2022-11-29",
-        "linkInfo": "tournament_details.phtml?event=291333",
-        "country": "IN",
-        "lat": 22.5727,
-        "lon": 88.3639
-    },
-    {
-        "name": "TATA Steel Chess India Blitz-2022",
-        "location": "Kolkata",
-        "system": "d",
-        "startingDate": "2022-12-03",
-        "linkInfo": "tournament_details.phtml?event=291334",
-        "country": "IN",
-        "lat": 22.5727,
-        "lon": 88.3639
-    },
-    {
-        "name": "Winter Cup Classical Below 1600 FIDE Rating Lakecity Open Chess Tournament",
-        "location": "Udaipur",
-        "system": "s",
-        "startingDate": "2022-12-23",
-        "linkInfo": "tournament_details.phtml?event=295191",
-        "country": "IN",
-        "lat": 24.5833,
-        "lon": 73.6833
-    },
-    {
-        "name": "Karnataka State Amateur FIDE Rated Chess  Championship 2022",
-        "location": "Bangalore",
-        "system": "s",
-        "startingDate": "2022-12-21",
-        "linkInfo": "tournament_details.phtml?event=298090",
-        "country": "IN",
-        "lat": 12.9791,
-        "lon": 77.5913
-    },
-    {
-        "name": "TATA Steel Chess India Women Rapid-2022",
-        "location": "Kolkata",
-        "system": "r",
-        "startingDate": "2022-11-29",
-        "linkInfo": "tournament_details.phtml?event=298761",
-        "country": "IN",
-        "lat": 22.5727,
-        "lon": 88.3639
-    },
-    {
-        "name": "TATA Steel Chess India Women Blitz-2022",
-        "location": "Kolkata",
-        "system": "d",
-        "startingDate": "2022-12-03",
-        "linkInfo": "tournament_details.phtml?event=298762",
-        "country": "IN",
-        "lat": 22.5727,
-        "lon": 88.3639
-    },
-    {
-        "name": "2nd ISC International Open FIDE rated Chess Tournament-2022 (Below 1700)",
-        "location": "Thiruvanthapuram",
-        "system": "s",
-        "startingDate": "2022-12-26",
-        "linkInfo": "tournament_details.phtml?event=299764",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 47th National Sub-Junior (Under-15) Chess Championship-2022",
-        "location": "New Delhi",
-        "system": "s",
-        "startingDate": "2022-11-28",
-        "linkInfo": "tournament_details.phtml?event=302549",
-        "country": "IN",
-        "lat": 28.6139,
-        "lon": 77.209
-    },
-    {
-        "name": "MPL 38th National Sub-Junior (Under-15) Girls Chess Championship-2022",
-        "location": "New Delhi",
-        "system": "s",
-        "startingDate": "2022-11-28",
-        "linkInfo": "tournament_details.phtml?event=302551",
-        "country": "IN",
-        "lat": 28.6139,
-        "lon": 77.209
-    },
-    {
-        "name": "5th Kudremukh Trophy All India Open Rapid FIDE Rated Chess Tournament",
-        "location": "Mangalore",
-        "system": "s",
-        "startingDate": "2022-12-10",
-        "linkInfo": "tournament_details.phtml?event=302950",
-        "country": "IN",
-        "lat": 12.8703,
-        "lon": 74.8806
-    },
-    {
-        "name": "1st Karimganj International FIDE Rating Chess Tournament 2022",
-        "location": "Karimganj",
-        "system": "s",
-        "startingDate": "2022-12-02",
-        "linkInfo": "tournament_details.phtml?event=303957",
-        "country": "IN"
-    },
-    {
-        "name": "Maharashtra State Rapid Chess Championship-2022",
-        "location": "Kalyan",
-        "system": "s",
-        "startingDate": "2022-12-10",
-        "linkInfo": "tournament_details.phtml?event=304022",
-        "country": "IN",
-        "lat": 19.2502,
-        "lon": 73.1602
-    },
-    {
-        "name": "Maharashtra State Blitz Chess Championship-2022",
-        "location": "Kalyan",
-        "system": "s",
-        "startingDate": "2022-12-11",
-        "linkInfo": "tournament_details.phtml?event=304023",
-        "country": "IN",
-        "lat": 19.2502,
-        "lon": 73.1602
-    },
-    {
-        "name": "ICC International FIDE Rapid Rating Chess Tournament",
-        "location": "Coimbatore",
-        "system": "s",
-        "startingDate": "2022-12-25",
-        "linkInfo": "tournament_details.phtml?event=304960",
-        "country": "IN",
-        "lat": 11,
-        "lon": 76.9667
-    },
-    {
-        "name": "5th All India Below 1600 FIDE Rating Chess Tournament 2022",
-        "location": "Mumbai",
-        "system": "s",
-        "startingDate": "2022-12-23",
-        "linkInfo": "tournament_details.phtml?event=304995",
-        "country": "IN",
-        "lat": 19.0758,
-        "lon": 72.8775
-    },
-    {
-        "name": "3rd All India FIDE Rated Physically Disabled Chess Championship-2022",
-        "location": "Tumkuru",
-        "system": "s",
-        "startingDate": "2022-12-01",
-        "linkInfo": "tournament_details.phtml?event=305702",
-        "country": "IN"
-    },
-    {
-        "name": "7th Kurukshetra FIDE Rating Tournament",
-        "location": "Dibrugarh",
-        "system": "s",
-        "startingDate": "2022-12-24",
-        "linkInfo": "tournament_details.phtml?event=306203",
-        "country": "IN",
-        "lat": 27.4833,
-        "lon": 95
-    },
-    {
-        "name": "SIMSRH 1st Rapid Rating Chess Tournament-2022",
-        "location": "Tumkuru",
-        "system": "s",
-        "startingDate": "2022-12-03",
-        "linkInfo": "tournament_details.phtml?event=307143",
-        "country": "IN"
-    },
-    {
-        "name": "Goa State Open Senior FIDE Rating Chess Championship 2022",
-        "location": "Goa",
-        "system": "s",
-        "startingDate": "2022-12-01",
-        "linkInfo": "tournament_details.phtml?event=307492",
-        "country": "IN",
-        "lat": 13.7,
-        "lon": 123.5
-    },
-    {
-        "name": "Vrindavana International Open Rapid FIDE Rated Chess Tournament 2022",
-        "location": "Mathura",
-        "system": "s",
-        "startingDate": "2022-12-03",
-        "linkInfo": "tournament_details.phtml?event=307622",
-        "country": "IN",
-        "lat": 27.5035,
-        "lon": 77.6722
-    },
-    {
-        "name": "MPL 35th National Under-13 Chess Championship-2022",
-        "location": "Puducherry",
-        "system": "s",
-        "startingDate": "2022-12-10",
-        "linkInfo": "tournament_details.phtml?event=307827",
-        "country": "IN",
-        "lat": 11.93,
-        "lon": 79.83
-    },
-    {
-        "name": "MPL 35th National Under-13 Girls Chess Championship-2022",
-        "location": "Puducherry",
-        "system": "s",
-        "startingDate": "2022-12-10",
-        "linkInfo": "tournament_details.phtml?event=307828",
-        "country": "IN",
-        "lat": 11.93,
-        "lon": 79.83
-    },
-    {
-        "name": "ABJA Suresh Memorial Open FIDE Rated Chess Tournament 2022",
-        "location": "Silchar",
-        "system": "s",
-        "startingDate": "2022-12-09",
-        "linkInfo": "tournament_details.phtml?event=307985",
-        "country": "IN",
-        "lat": 24.7904,
-        "lon": 92.79
-    },
-    {
-        "name": "13th North East India Chess Championship- 2022",
-        "location": "Mangaldai",
-        "system": "s",
-        "startingDate": "2022-12-14",
-        "linkInfo": "tournament_details.phtml?event=307993",
-        "country": "IN"
-    },
-    {
-        "name": "4th Tata Steel Festival Rapid Chess Tournament-2022",
-        "location": "Kolkata",
-        "system": "s",
-        "startingDate": "2022-11-29",
-        "linkInfo": "tournament_details.phtml?event=308525",
-        "country": "IN",
-        "lat": 22.5727,
-        "lon": 88.3639
-    },
-    {
-        "name": "16th UP State U-13 Fide Rating Chess Championship 2022",
-        "location": "Agra",
-        "system": "s",
-        "startingDate": "2022-12-02",
-        "linkInfo": "tournament_details.phtml?event=308894",
-        "country": "IN",
-        "lat": 27.1724,
-        "lon": 78.0131
-    },
-    {
-        "name": "Suraj Rapid FIDE Rating Open Chess Tournament 2022",
-        "location": "Sangli",
-        "system": "s",
-        "startingDate": "2022-12-24",
-        "linkInfo": "tournament_details.phtml?event=308895",
-        "country": "IN",
-        "lat": 16.8667,
-        "lon": 74.5667
-    },
-    {
-        "name": "Maharashtra State Amateur FIDE Rating Chess Championship 2022",
-        "location": "Vasai Road",
-        "system": "s",
-        "startingDate": "2022-12-16",
-        "linkInfo": "tournament_details.phtml?event=308896",
-        "country": "IN"
-    },
-    {
-        "name": "2nd S K Kulkarni Memorial Open FIDE Rating Chess Tournament 2022",
-        "location": "Kolhapur",
-        "system": "s",
-        "startingDate": "2022-12-05",
-        "linkInfo": "tournament_details.phtml?event=309214",
-        "country": "IN",
-        "lat": 16.7,
-        "lon": 74.2333
-    },
-    {
-        "name": "1st S K Kulkarni Memorial FIDE Rapid Rating Chess Tournament 2022",
-        "location": "Kolhapur",
-        "system": "s",
-        "startingDate": "2022-12-04",
-        "linkInfo": "tournament_details.phtml?event=309215",
-        "country": "IN",
-        "lat": 16.7,
-        "lon": 74.2333
-    },
-    {
-        "name": "Chhattisgarh State Open FIDE Rating Chess Championship 2022",
-        "location": "Mahasamund",
-        "system": "s",
-        "startingDate": "2022-12-09",
-        "linkInfo": "tournament_details.phtml?event=309216",
-        "country": "IN"
-    },
-    {
-        "name": "MP State Senior Selection FIDE Rating Chess Tournament",
-        "location": "Sagar",
-        "system": "s",
-        "startingDate": "2022-12-09",
-        "linkInfo": "tournament_details.phtml?event=310141",
-        "country": "IN"
-    },
-    {
-        "name": "16th U P State Senior Fide Rating Chess  Championship 2022",
-        "location": "Kaushambi",
-        "system": "s",
-        "startingDate": "2022-12-10",
-        "linkInfo": "tournament_details.phtml?event=310744",
-        "country": "IN"
-    },
-    {
-        "name": "Balangir Open FIDE Rating Chess Tournament",
-        "location": "Balangir",
-        "system": "s",
-        "startingDate": "2022-12-24",
-        "linkInfo": "tournament_details.phtml?event=310775",
-        "country": "IN"
-    },
-    {
-        "country": "IN"
-    },
-    {
-        "name": "18th KCM Below 1600 FIDE Rated Chess Tournament",
-        "location": "Coimbatore",
-        "system": "s",
-        "startingDate": "2022-12-30",
-        "linkInfo": "tournament_details.phtml?event=298412",
-        "country": "IN",
-        "lat": 11,
-        "lon": 76.9667
-    },
-    {
-        "name": "1st War  of Knights Open International FIDE Rated Chess Tournament 2022",
-        "location": "Kolkata",
-        "system": "s",
-        "startingDate": "2022-12-26",
-        "linkInfo": "tournament_details.phtml?event=301814",
-        "country": "IN",
-        "lat": 22.5727,
-        "lon": 88.3639
-    },
-    {
-        "name": "MPL 48th National Women Chess Championship-2022",
-        "location": "Kolhapur",
-        "system": "s",
-        "startingDate": "2022-12-26",
-        "linkInfo": "tournament_details.phtml?event=301824",
-        "country": "IN",
-        "lat": 16.7,
-        "lon": 74.2333
-    },
-    {
-        "name": "1st Bishan Singh Ji Memorial All India Open Fide Rating Chess Tournament",
-        "location": "Hyderabad",
-        "system": "s",
-        "startingDate": "2023-01-10",
-        "linkInfo": "tournament_details.phtml?event=302028",
-        "country": "IN",
-        "lat": 17.3617,
-        "lon": 78.4747
-    },
-    {
-        "name": "MPL 58th Senior National Chess Championship-2022",
-        "location": "New Delhi",
-        "system": "s",
-        "startingDate": "2022-12-22",
-        "linkInfo": "tournament_details.phtml?event=302750",
-        "country": "IN",
-        "lat": 28.6139,
-        "lon": 77.209
-    },
-    {
-        "name": "360 One Mumbai Open FIDE Rating  Chess Tournament 2022",
-        "location": "Mumbai",
-        "system": "s",
-        "startingDate": "2022-12-26",
-        "linkInfo": "tournament_details.phtml?event=302944",
-        "country": "IN",
-        "lat": 19.0758,
-        "lon": 72.8775
-    },
-    {
-        "name": "360 One Mumbai Junior (U13) FIDE Rating  Chess Tournament 2022",
-        "location": "Mumbai",
-        "system": "s",
-        "startingDate": "2022-12-26",
-        "linkInfo": "tournament_details.phtml?event=302945",
-        "country": "IN",
-        "lat": 19.0758,
-        "lon": 72.8775
-    },
-    {
-        "name": "Republic Day Celebration Rooks and Knights Academy of Chess International Rapid Rated Chess Tournament",
-        "location": "Chennai",
-        "system": "s",
-        "startingDate": "2023-01-26",
-        "linkInfo": "tournament_details.phtml?event=302949",
-        "country": "IN",
-        "lat": 13.0825,
-        "lon": 80.275
-    },
-    {
-        "name": "20th Delhi International Open Grandmasters Chess Tournament-2023 (Category A)",
-        "location": "New Delhi",
-        "system": "s",
-        "startingDate": "2023-01-17",
-        "linkInfo": "tournament_details.phtml?event=303404",
-        "country": "IN",
-        "lat": 28.6139,
-        "lon": 77.209
-    },
-    {
-        "name": "20th Delhi International Open Grandmasters Chess Tournament-2023 (Category B)",
-        "location": "New Delhi",
-        "system": "s",
-        "startingDate": "2023-01-17",
-        "linkInfo": "tournament_details.phtml?event=303405",
-        "country": "IN",
-        "lat": 28.6139,
-        "lon": 77.209
-    },
-    {
-        "name": "20th Delhi International Open Grandmasters Chess Tournament-2023 (Category C)",
-        "location": "New Delhi",
-        "system": "s",
-        "startingDate": "2023-01-21",
-        "linkInfo": "tournament_details.phtml?event=303406",
-        "country": "IN",
-        "lat": 28.6139,
-        "lon": 77.209
-    },
-    {
-        "name": "Surya Trophy All India FIDR Rating Chess Tournament",
-        "location": "Vadodara",
-        "system": "s",
-        "startingDate": "2022-12-27",
-        "linkInfo": "tournament_details.phtml?event=304021",
-        "country": "IN",
-        "lat": 22.3,
-        "lon": 73.2
-    },
-    {
-        "name": "7th MSV Memorial FIDE Rated Open Chess Tournament",
-        "location": "Chennai",
-        "system": "s",
-        "startingDate": "2022-12-28",
-        "linkInfo": "tournament_details.phtml?event=305013",
-        "country": "IN",
-        "lat": 13.0825,
-        "lon": 80.275
-    },
-    {
-        "name": "1st Zion Group International FIDE Rated Chess Tournament",
-        "location": "Chennai",
-        "system": "s",
-        "startingDate": "2022-12-24",
-        "linkInfo": "tournament_details.phtml?event=305015",
-        "country": "IN",
-        "lat": 13.0825,
-        "lon": 80.275
-    },
-    {
-        "name": "Mount Chess Academy Below 1600 FIDE Rated Tournament",
-        "location": "Chennai",
-        "system": "s",
-        "startingDate": "2023-01-06",
-        "linkInfo": "tournament_details.phtml?event=305016",
-        "country": "IN",
-        "lat": 13.0825,
-        "lon": 80.275
-    },
-    {
-        "name": "Vallalar 1st International Open Rapid Rating Chess Tournament-2023",
-        "location": "Neyveli",
-        "system": "s",
-        "startingDate": "2023-01-14",
-        "linkInfo": "tournament_details.phtml?event=307073",
-        "country": "IN"
-    },
-    {
-        "name": "Little England 3rd International Open FIDE Rated Chess Tournament",
-        "location": "Hosur",
-        "system": "s",
-        "startingDate": "2023-01-18",
-        "linkInfo": "tournament_details.phtml?event=307074",
-        "country": "IN"
-    },
-    {
-        "name": "Little England 4th International Open FIDE Rated Chess Tournament (Below 1600)",
-        "location": "Hosur",
-        "system": "s",
-        "startingDate": "2023-01-23",
-        "linkInfo": "tournament_details.phtml?event=307075",
-        "country": "IN"
-    },
-    {
-        "name": "Johnson Pallippatt Memorial 7th Don Bosco Fide Rated Chess Tournament",
-        "location": "Irinjalakuda",
-        "system": "s",
-        "startingDate": "2022-12-29",
-        "linkInfo": "tournament_details.phtml?event=307237",
-        "country": "IN"
-    },
-    {
-        "name": "2nd Sumati & Venkatesh Shanbhag Memorial All India Rapid Rating Chess Tournament",
-        "location": "Vasco da Gama",
-        "system": "s",
-        "startingDate": "2023-01-07",
-        "linkInfo": "tournament_details.phtml?event=307248",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 35th National Under-9 Chess Championship-2022",
-        "location": "Indore",
-        "system": "s",
-        "startingDate": "2022-12-25",
-        "linkInfo": "tournament_details.phtml?event=307988",
-        "country": "IN",
-        "lat": 22.7206,
-        "lon": 75.8472
-    },
-    {
-        "name": "MPL 35th National Under-9 Girls Chess Championship-2022",
-        "location": "Indore",
-        "system": "s",
-        "startingDate": "2022-12-25",
-        "linkInfo": "tournament_details.phtml?event=307989",
-        "country": "IN",
-        "lat": 22.7206,
-        "lon": 75.8472
-    },
-    {
-        "name": "All India Below 1600 Fide Rating Chess Tournament-2023",
-        "location": "Ahmednagar",
-        "system": "s",
-        "startingDate": "2023-01-06",
-        "linkInfo": "tournament_details.phtml?event=308527",
-        "country": "IN"
-    },
-    {
-        "name": "VKV Open Classical FIDE Rating Chess Tournament  2023",
-        "location": "Udaipur",
-        "system": "s",
-        "startingDate": "2023-01-02",
-        "linkInfo": "tournament_details.phtml?event=309219",
-        "country": "IN",
-        "lat": 24.5833,
-        "lon": 73.6833
-    },
-    {
-        "name": "Republic Day Cup Open Rapid FIDE Rating tournament -2023",
-        "location": "Shivamogga",
-        "system": "s",
-        "startingDate": "2023-01-28",
-        "linkInfo": "tournament_details.phtml?event=309394",
-        "country": "IN"
-    },
-    {
-        "name": "Mungeli Trophy All India Open FIDE Rated Chess Tournament 2023",
-        "location": "Mungeli",
-        "system": "s",
-        "startingDate": "2023-01-06",
-        "linkInfo": "tournament_details.phtml?event=309576",
-        "country": "IN"
-    },
-    {
-        "name": "1st All India Open International FIDE Rating Chess Tournament 2023",
-        "location": "Kolkata",
-        "system": "s",
-        "startingDate": "2023-01-03",
-        "linkInfo": "tournament_details.phtml?event=310765",
-        "country": "IN",
-        "lat": 22.5727,
-        "lon": 88.3639
-    },
-    {
-        "name": "Ashwamedha Cup All India OPEN FIDE Rapid Rating Chess Tournament 2023",
-        "location": "Bangalore",
-        "system": "s",
-        "startingDate": "2023-01-22",
-        "linkInfo": "tournament_details.phtml?event=310767",
-        "country": "IN",
-        "lat": 12.9791,
-        "lon": 77.5913
-    },
-    {
-        "country": "IN"
-    },
-    {
-        "name": "1st V4 Chess All India Open Fide Rating Below 1600 Chess Tournament",
-        "location": "Hyderabad",
-        "system": "s",
-        "startingDate": "2023-02-03",
-        "linkInfo": "tournament_details.phtml?event=302029",
-        "country": "IN",
-        "lat": 17.3617,
-        "lon": 78.4747
-    },
-    {
-        "name": "MPL 11th National Schools Under-07 Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305063",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-09 Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305064",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-11 Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305065",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-13 Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305066",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-15 Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305067",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-17 Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305068",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-07 Girls Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305069",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-09 Girls Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305070",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-11 Girls Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305071",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-13 Girls Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305072",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-15 Girls Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305073",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 11th National Schools Under-17 Girls Chess Championship 2023",
-        "location": "Krishnagiri",
-        "system": "s",
-        "startingDate": "2023-01-27",
-        "linkInfo": "tournament_details.phtml?event=305074",
-        "country": "IN"
-    },
-    {
-        "name": "1st Tirupattur Open FIDE Rated Rapid Chess Tournament",
-        "location": "Tirupattur",
-        "system": "s",
-        "startingDate": "2023-02-19",
-        "linkInfo": "tournament_details.phtml?event=305696",
-        "country": "IN"
-    },
-    {
-        "name": "Texcity 1st International Rapid Rating Chess Tournament",
-        "location": "Karur",
-        "system": "s",
-        "startingDate": "2023-02-19",
-        "linkInfo": "tournament_details.phtml?event=306494",
-        "country": "IN",
-        "lat": 10.9504,
-        "lon": 78.0833
-    },
-    {
-        "name": "Chalakudy Chess Academy's Below 1600 Fide Rated Chess Tournament",
-        "location": "Chalakudy",
-        "system": "s",
-        "startingDate": "2023-02-10",
-        "linkInfo": "tournament_details.phtml?event=307238",
-        "country": "IN"
-    },
-    {
-        "name": "MPL National  Rapid Chess Championship 2022-23",
-        "location": "Jammu",
-        "system": "s",
-        "startingDate": "2023-02-24",
-        "linkInfo": "tournament_details.phtml?event=307994",
-        "country": "IN",
-        "lat": 32.7333,
-        "lon": 74.85
-    },
-    {
-        "name": "International FIDE Rapid Rating Chess Tournament",
-        "location": "Bhimavaram",
-        "system": "s",
-        "startingDate": "2023-02-11",
-        "linkInfo": "tournament_details.phtml?event=308133",
-        "country": "IN",
-        "lat": 16.5333,
-        "lon": 81.5333
-    },
-    {
-        "name": "MPL 42nd National Team Chess Championship-2022",
-        "location": "Pollachi",
-        "system": "s",
-        "startingDate": "2023-02-10",
-        "linkInfo": "tournament_details.phtml?event=308897",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 20th National Women Team Chess Championship-2022",
-        "location": "Pollachi",
-        "system": "s",
-        "startingDate": "2023-02-10",
-        "linkInfo": "tournament_details.phtml?event=308898",
-        "country": "IN"
-    },
-    {
-        "name": "Indore International Grandmaster Chess Tournament-2023",
-        "location": "Indore",
-        "system": "s",
-        "startingDate": "2023-01-26",
-        "linkInfo": "tournament_details.phtml?event=309022",
-        "country": "IN",
-        "lat": 22.7206,
-        "lon": 75.8472
-    },
-    {
-        "name": "Indore International Open (Challengers Category)",
-        "location": "Indore",
-        "system": "s",
-        "startingDate": "2023-01-26",
-        "linkInfo": "tournament_details.phtml?event=309023",
-        "country": "IN",
-        "lat": 22.7206,
-        "lon": 75.8472
-    },
-    {
-        "name": "MPL 10th National Amateur Chess Championship 2022-23 for Below 2300",
-        "location": "Sangrur",
-        "system": "s",
-        "startingDate": "2023-02-18",
-        "linkInfo": "tournament_details.phtml?event=309404",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 10th National Amateur Chess Championship 2022-23 for Below 2000",
-        "location": "Sangrur",
-        "system": "s",
-        "startingDate": "2023-02-18",
-        "linkInfo": "tournament_details.phtml?event=309405",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 10th National Amateur Chess Championship 2022-23 for Below 1700",
-        "location": "Sangrur",
-        "system": "s",
-        "startingDate": "2023-02-18",
-        "linkInfo": "tournament_details.phtml?event=309406",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 10th National Amateur Women Chess Championship 2022-23 for Below 2300",
-        "location": "Sangrur",
-        "system": "s",
-        "startingDate": "2023-02-18",
-        "linkInfo": "tournament_details.phtml?event=309407",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 10th National Amateur Women Chess Championship 2022-23 for Below 2000",
-        "location": "Sangrur",
-        "system": "s",
-        "startingDate": "2023-02-18",
-        "linkInfo": "tournament_details.phtml?event=309408",
-        "country": "IN"
-    },
-    {
-        "name": "MPL 10th National Amateur Women Chess Championship 2022-23 for Below 1700",
-        "location": "Sangrur",
-        "system": "s",
-        "startingDate": "2023-02-18",
-        "linkInfo": "tournament_details.phtml?event=309409",
-        "country": "IN"
-    },
-    {
-        "name": "Promethean Open Rapid FIDE Rating Chess Tournament",
-        "location": "Bangalore",
-        "system": "s",
-        "startingDate": "2023-02-12",
-        "linkInfo": "tournament_details.phtml?event=309573",
-        "country": "IN",
-        "lat": 12.9791,
-        "lon": 77.5913
-    },
-    {
-        "name": "34th KCF FIDE Rated Rapid Chess Tournament",
-        "location": "Chennai",
-        "system": "s",
-        "startingDate": "2023-02-19",
-        "linkInfo": "tournament_details.phtml?event=310142",
-        "country": "IN",
-        "lat": 13.0825,
-        "lon": 80.275
-    },
-    {
-        "name": "TKSS Kotak Life Insurance International FIDE Rapid Rating Chess Tournament 2023",
-        "location": "Chennai",
-        "system": "s",
-        "startingDate": "2023-02-05",
-        "linkInfo": "tournament_details.phtml?event=311058",
-        "country": "IN",
-        "lat": 13.0825,
-        "lon": 80.275
-    },
-    {
-        "name": "3rd SCMA All India FIDE Rated Open Rapid Chess Tournament 2023",
-        "location": "Bangalore",
-        "system": "s",
-        "startingDate": "2023-02-04",
-        "linkInfo": "tournament_details.phtml?event=311215",
-        "country": "IN",
-        "lat": 12.9791,
-        "lon": 77.5913
-    },
-    {
-        "country": "IN"
-    },
-    {
-        "name": "MPL National  Blitz Chess Championship 2022-23",
-        "location": "Jammu",
-        "system": "s",
-        "startingDate": "2023-02-27",
-        "linkInfo": "tournament_details.phtml?event=307995",
-        "country": "IN",
-        "lat": 32.7333,
-        "lon": 74.85
-    },
-    {
-        "country": "IN"
-    },
-    {
-        "name": "5th Bangalore Open FIDE Rating Chess Tournament",
-        "location": "Bangalore",
-        "system": "s",
-        "startingDate": "2023-04-08",
-        "linkInfo": "tournament_details.phtml?event=305020",
-        "country": "IN",
-        "lat": 12.9791,
-        "lon": 77.5913
-    },
-    {
-        "name": "9th ICA Open Below 1600 FIDE Rating Chess Tournament",
-        "location": "Bangalore",
-        "system": "s",
-        "startingDate": "2023-04-13",
-        "linkInfo": "tournament_details.phtml?event=305021",
-        "country": "IN",
-        "lat": 12.9791,
-        "lon": 77.5913
-    },
-    {
-        "name": "4th ICA Open Rapid FIDE Rating Chess Tournament",
-        "location": "Bangalore",
-        "system": "s",
-        "startingDate": "2023-04-07",
-        "linkInfo": "tournament_details.phtml?event=305022",
-        "country": "IN",
-        "lat": 12.9791,
-        "lon": 77.5913
-    },
-    {
-        "name": "2nd Cademic International Open FIDE Rated Rapid Chess Tournament 2023",
-        "location": "Thiruvanthapuram",
-        "system": "s",
-        "startingDate": "2023-04-22",
-        "linkInfo": "tournament_details.phtml?event=306906",
-        "country": "IN"
-    },
-    {
-        "name": "3rd Cademic International Open FIDE Rated Blitz Chess Tournament 2023",
-        "location": "Thiruvanthapuram",
-        "system": "s",
-        "startingDate": "2023-04-23",
-        "linkInfo": "tournament_details.phtml?event=306907",
-        "country": "IN"
-    },
-    {
-        "name": "4th Cademic International Open FIDE Rated Classical Chess Tournament 2023",
-        "location": "Thiruvanthapuram",
-        "system": "s",
-        "startingDate": "2023-04-24",
-        "linkInfo": "tournament_details.phtml?event=306912",
-        "country": "IN"
-    },
-    {
-        "name": "5th Holi Cup International Lakecity Open FIDE Rating Chess Tournament 2023",
-        "location": "Udaipur",
-        "system": "s",
-        "startingDate": "2023-03-26",
-        "linkInfo": "tournament_details.phtml?event=309217",
-        "country": "IN",
-        "lat": 24.5833,
-        "lon": 73.6833
-    },
-    {
-        "country": "IN"
-    },
-    {
-        "name": "5th Cademic International below 1600 FIDE Rated Classical Chess Tournament 2023",
-        "location": "Thiruvanthapuram",
-        "system": "s",
-        "startingDate": "2023-04-29",
-        "linkInfo": "tournament_details.phtml?event=306913",
-        "country": "IN"
-    },
-    {
-        "country": "IN"
-    },
-    {
-        "name": "Summer Cup Classical Below 1600 FIDE Rating Lake City Open Chess Tournament 2023",
-        "location": "Udaipur",
-        "system": "s",
-        "startingDate": "2023-06-16",
-        "linkInfo": "tournament_details.phtml?event=309218",
-        "country": "IN",
-        "lat": 24.5833,
-        "lon": 73.6833
-    },
-    {
-        "country": "IN"
     },
     {
         "name": "IRQ FINAL FOR WOMEN 2022",
@@ -28699,6 +27895,16 @@
         "lon": 78.3833
     },
     {
+        "name": "Den Prav Cheloveka rapid 111222",
+        "location": "Bishkek",
+        "system": "s",
+        "startingDate": "2022-12-14",
+        "linkInfo": "tournament_details.phtml?event=311393",
+        "country": "KG",
+        "lat": 42.8667,
+        "lon": 74.5667
+    },
+    {
         "country": "KG"
     },
     {
@@ -29349,6 +28555,32 @@
         "country": "LT"
     },
     {
+        "name": "Classical Chess Tournament to Commemorate the Day of the Defenders of Freedom",
+        "location": "Vilnius",
+        "system": "s",
+        "startingDate": "2023-01-13",
+        "linkInfo": "tournament_details.phtml?event=311397",
+        "country": "LT",
+        "lat": 54.6833,
+        "lon": 25.2833
+    },
+    {
+        "country": "LT"
+    },
+    {
+        "name": "Open Vilkaviskis Amateur Chess Championship",
+        "location": "Vilkaviskis",
+        "system": "s",
+        "startingDate": "2023-02-03",
+        "linkInfo": "tournament_details.phtml?event=311396",
+        "country": "LT",
+        "lat": 54.6667,
+        "lon": 23.0333
+    },
+    {
+        "country": "LT"
+    },
+    {
         "name": "Luxembourg Team Championship 22-23 Round 3-4",
         "location": "various",
         "system": "t",
@@ -29491,6 +28723,14 @@
         "country": "MY",
         "lat": 3.1478,
         "lon": 101.6953
+    },
+    {
+        "name": "FIDE Rated Round Robin (Penang & Perak)",
+        "location": "Penang",
+        "system": "s",
+        "startingDate": "2022-12-16",
+        "linkInfo": "tournament_details.phtml?event=311359",
+        "country": "MY"
     },
     {
         "country": "MY"
@@ -30027,7 +29267,7 @@
         "name": "Copa COLAM Oro Espartanos",
         "location": "Saltillo, Coahuila",
         "system": "s",
-        "startingDate": "2022-12-15",
+        "startingDate": "2022-12-17",
         "linkInfo": "tournament_details.phtml?event=309099",
         "country": "MX"
     },
@@ -30748,8 +29988,8 @@
         "startingDate": "2022-12-22",
         "linkInfo": "tournament_details.phtml?event=291922",
         "country": "NL",
-        "lat": 53.2167,
-        "lon": 6.5667
+        "lat": 5.797,
+        "lon": -55.481
     },
     {
         "country": "NL"
@@ -30785,8 +30025,8 @@
         "startingDate": "2022-12-21",
         "linkInfo": "tournament_details.phtml?event=291919",
         "country": "NL",
-        "lat": 53.2167,
-        "lon": 6.5667
+        "lat": 5.797,
+        "lon": -55.481
     },
     {
         "name": "Chessfestival Groningen 2022 Open B",
@@ -30795,8 +30035,8 @@
         "startingDate": "2022-12-21",
         "linkInfo": "tournament_details.phtml?event=291920",
         "country": "NL",
-        "lat": 53.2167,
-        "lon": 6.5667
+        "lat": 5.797,
+        "lon": -55.481
     },
     {
         "name": "Chessfestival Groningen 2022 Open C",
@@ -30805,8 +30045,8 @@
         "startingDate": "2022-12-21",
         "linkInfo": "tournament_details.phtml?event=291921",
         "country": "NL",
-        "lat": 53.2167,
-        "lon": 6.5667
+        "lat": 5.797,
+        "lon": -55.481
     },
     {
         "name": "Chessfestival Groningen 2022 Compact",
@@ -30815,8 +30055,8 @@
         "startingDate": "2022-12-26",
         "linkInfo": "tournament_details.phtml?event=291923",
         "country": "NL",
-        "lat": 53.2167,
-        "lon": 6.5667
+        "lat": 5.797,
+        "lon": -55.481
     },
     {
         "name": "Tata Steel Qualifiers 2023",
@@ -31200,6 +30440,16 @@
         "lon": 174.7772
     },
     {
+        "name": "Howick Chess Centre Christmas Junior Rapid",
+        "location": "Auckland",
+        "system": "s",
+        "startingDate": "2022-12-18",
+        "linkInfo": "tournament_details.phtml?event=311394",
+        "country": "NZ",
+        "lat": -36.85,
+        "lon": 174.7833
+    },
+    {
         "country": "NZ"
     },
     {
@@ -31271,6 +30521,16 @@
         "country": "NZ",
         "lat": -41.2889,
         "lon": 174.7772
+    },
+    {
+        "name": "Bob Wade Challengers B",
+        "location": "Auckland",
+        "system": "r",
+        "startingDate": "2023-01-14",
+        "linkInfo": "tournament_details.phtml?event=311395",
+        "country": "NZ",
+        "lat": -36.85,
+        "lon": 174.7833
     },
     {
         "country": "NZ"
@@ -33247,7 +32507,28 @@
         "lon": 67.01
     },
     {
+        "name": "3rd Chief Commissioner Islamabad Blitz Chess Tournament",
+        "location": "Islamabad",
+        "system": "s",
+        "startingDate": "2022-12-14",
+        "linkInfo": "tournament_details.phtml?event=311386",
+        "country": "PK",
+        "lat": 33.6989,
+        "lon": 73.0369
+    },
+    {
         "country": "PK"
+    },
+    {
+        "name": "1st Al-Aqsa Tournament 2022",
+        "location": "Herbon",
+        "system": "s",
+        "startingDate": "2022-12-08",
+        "linkInfo": "tournament_details.phtml?event=308929",
+        "country": "PS"
+    },
+    {
+        "country": "PS"
     },
     {
         "name": "III Copa Navidena de Ajedrez Mall Paseo Central 2022 - OPEN",
@@ -39459,6 +38740,19 @@
         "country": "ZA"
     },
     {
+        "name": "17th ICHESS",
+        "location": "Seoul",
+        "system": "s",
+        "startingDate": "2022-12-11",
+        "linkInfo": "tournament_details.phtml?event=308477",
+        "country": "KR",
+        "lat": 37.56,
+        "lon": 126.99
+    },
+    {
+        "country": "KR"
+    },
+    {
         "name": "XI Torneo a Ritmo Lento - C.A. Villa de La Zubia",
         "location": "La Zubia, Granada",
         "system": "s",
@@ -40371,7 +39665,7 @@
     {
         "name": "Campeonato de Espana FEDS Ajedrez Activo para Sordos 2022",
         "location": "Madrid",
-        "system": "s",
+        "system": "d",
         "startingDate": "2022-12-10",
         "linkInfo": "tournament_details.phtml?event=309630",
         "country": "ES",
@@ -40488,6 +39782,14 @@
         "system": "s",
         "startingDate": "2022-12-07",
         "linkInfo": "tournament_details.phtml?event=311145",
+        "country": "ES"
+    },
+    {
+        "name": "XXVIII Torneo Navidad Santa Cruz de La Palma 2022",
+        "location": "Santa Cruz de la Palma (Islas Canarias)",
+        "system": "s",
+        "startingDate": "2022-12-16",
+        "linkInfo": "tournament_details.phtml?event=311403",
         "country": "ES"
     },
     {
@@ -40914,6 +40216,16 @@
         "lon": 2.8167
     },
     {
+        "name": "Supercopa de Sevilla por Equipos 2023",
+        "location": "Sevilla",
+        "system": "s",
+        "startingDate": "2023-01-08",
+        "linkInfo": "tournament_details.phtml?event=311409",
+        "country": "ES",
+        "lat": 37.39,
+        "lon": -5.99
+    },
+    {
         "country": "ES"
     },
     {
@@ -41237,6 +40549,16 @@
         "country": "ES",
         "lat": 41.65,
         "lon": -0.8833
+    },
+    {
+        "name": "II TORNEO DE AJEDREZ PEONES TRAVIESOS",
+        "location": "Alicante",
+        "system": "s",
+        "startingDate": "2023-01-22",
+        "linkInfo": "tournament_details.phtml?event=311404",
+        "country": "ES",
+        "lat": 38.3453,
+        "lon": -0.4831
     },
     {
         "country": "ES"
@@ -42097,77 +41419,47 @@
         "country": "LK"
     },
     {
-        "name": "Alhaj Yousif weekly tournament 5th",
-        "location": "Khartoum",
-        "system": "s",
-        "startingDate": "2022-11-18",
-        "linkInfo": "tournament_details.phtml?event=309280",
-        "country": "SD",
-        "lat": 15.6031,
-        "lon": 32.5265
-    },
-    {
-        "name": "Alhaj Yousif weekly Championship Nov25th",
-        "location": "Khartoum",
-        "system": "s",
-        "startingDate": "2022-11-25",
-        "linkInfo": "tournament_details.phtml?event=311219",
-        "country": "SD",
-        "lat": 15.6031,
-        "lon": 32.5265
-    },
-    {
-        "name": "Alhaj Yousif weekly Championship Dec2nd",
-        "location": "Khartoum",
-        "system": "s",
-        "startingDate": "2022-12-02",
-        "linkInfo": "tournament_details.phtml?event=311220",
-        "country": "SD",
-        "lat": 15.6031,
-        "lon": 32.5265
-    },
-    {
-        "name": "Alhaj Yousif weekly Championship Dec9th",
-        "location": "Khartoum",
-        "system": "s",
-        "startingDate": "2022-12-09",
-        "linkInfo": "tournament_details.phtml?event=311221",
-        "country": "SD",
-        "lat": 15.6031,
-        "lon": 32.5265
-    },
-    {
-        "name": "Alhaj Yousif weekly Championship Nov11th",
-        "location": "Khartoum",
-        "system": "s",
-        "startingDate": "2022-11-11",
-        "linkInfo": "tournament_details.phtml?event=311222",
-        "country": "SD",
-        "lat": 15.6031,
-        "lon": 32.5265
-    },
-    {
-        "name": "Alhaj Yousif weekly Championship Nov4th",
-        "location": "Khartoum",
+        "name": "Interclub Kampioenschappen Eerste Klasse 2022",
+        "location": "Paramaribo",
         "system": "s",
         "startingDate": "2022-11-04",
-        "linkInfo": "tournament_details.phtml?event=311223",
-        "country": "SD",
-        "lat": 15.6031,
-        "lon": 32.5265
+        "linkInfo": "tournament_details.phtml?event=307748",
+        "country": "SR",
+        "lat": 5.8667,
+        "lon": -55.1667
     },
     {
-        "name": "Alhaj Yousif weekly Championship Oct28th",
-        "location": "Khartoum",
+        "name": "Interclub Kampioenschappen Top Klasse 2022",
+        "location": "Paramaribo",
+        "system": "d",
+        "startingDate": "2022-11-04",
+        "linkInfo": "tournament_details.phtml?event=307749",
+        "country": "SR",
+        "lat": 5.8667,
+        "lon": -55.1667
+    },
+    {
+        "name": "Assuria Nationale Rapid Kampioenschappen 2022",
+        "location": "Paramaribo",
         "system": "s",
-        "startingDate": "2022-10-28",
-        "linkInfo": "tournament_details.phtml?event=311230",
-        "country": "SD",
-        "lat": 15.6031,
-        "lon": 32.5265
+        "startingDate": "2022-12-11",
+        "linkInfo": "tournament_details.phtml?event=311331",
+        "country": "SR",
+        "lat": 5.8667,
+        "lon": -55.1667
     },
     {
-        "country": "SD"
+        "name": "Assuria Nationale Blitz Kampioenschappen 2022",
+        "location": "Paramaribo",
+        "system": "s",
+        "startingDate": "2022-12-16",
+        "linkInfo": "tournament_details.phtml?event=311332",
+        "country": "SR",
+        "lat": 5.8667,
+        "lon": -55.1667
+    },
+    {
+        "country": "SR"
     },
     {
         "name": "Nacka SIK öppna KM ht 2022 R789",
@@ -43774,6 +43066,22 @@
         "country": "SE",
         "lat": 56.0424,
         "lon": 12.721
+    },
+    {
+        "name": "LASK3op",
+        "location": "Lund",
+        "system": "s",
+        "startingDate": "2022-12-15",
+        "linkInfo": "tournament_details.phtml?event=311398",
+        "country": "SE"
+    },
+    {
+        "name": "LASK4op",
+        "location": "Lund",
+        "system": "s",
+        "startingDate": "2022-12-15",
+        "linkInfo": "tournament_details.phtml?event=311399",
+        "country": "SE"
     },
     {
         "country": "SE"
@@ -45545,6 +44853,16 @@
         "lon": 100.5167
     },
     {
+        "name": "Northern Thailand Rapid Chess Championship 2022",
+        "location": "Chiang Mai",
+        "system": "s",
+        "startingDate": "2022-12-17",
+        "linkInfo": "tournament_details.phtml?event=311361",
+        "country": "TH",
+        "lat": 18.7889,
+        "lon": 98.9833
+    },
+    {
         "country": "TH"
     },
     {
@@ -46035,6 +45353,42 @@
         "country": "UA",
         "lat": 49.1667,
         "lon": 26.5667
+    },
+    {
+        "name": "New year tournament from a rapid chess on Cup of the Kovel - A, 2022",
+        "location": "Kovel",
+        "system": "s",
+        "startingDate": "2022-12-28",
+        "linkInfo": "tournament_details.phtml?event=311405",
+        "country": "UA",
+        "lat": 51.2167,
+        "lon": 24.7167
+    },
+    {
+        "name": "New-year tournament from a rapid chess on Cup of the Kovel - B , 2022",
+        "location": "Kovel",
+        "system": "s",
+        "startingDate": "2022-12-24",
+        "linkInfo": "tournament_details.phtml?event=311406",
+        "country": "UA",
+        "lat": 51.2167,
+        "lon": 24.7167
+    },
+    {
+        "name": "New year tournament from blitz of chess on Cup of the Lubny-2022",
+        "location": "Lubny, Poltava region",
+        "system": "s",
+        "startingDate": "2022-12-17",
+        "linkInfo": "tournament_details.phtml?event=311407",
+        "country": "UA"
+    },
+    {
+        "name": "New-year tournament from a rapid chess on Cup of the Lubny -2022",
+        "location": "Lubny, Poltava region",
+        "system": "s",
+        "startingDate": "2022-12-18",
+        "linkInfo": "tournament_details.phtml?event=311408",
+        "country": "UA"
     },
     {
         "country": "UA"
