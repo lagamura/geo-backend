@@ -10,7 +10,7 @@ import nodemailer from 'nodemailer'
 import multer from 'multer'
 // import greekCities from './countrycities/greekCities.json' assert {type: 'json'};
 // import * as cities from './countrycities/index.js';
-import jsonFiles from './countrycities/index.js';
+// import jsonFiles from './countrycities/index.js';
 import tournaments from './tournaments.json' assert {type: 'json'};
 import slim3countries from './slim3countries.json' assert { type: 'json' };
 import { fidecountries } from './fidecountries.js';
@@ -172,7 +172,7 @@ export async function main() {
             console.log("Abort...Tournaments from scrapping Error")
             return;
         }
-        const cities = await import(`./countrycities/${jsonFiles[0]}`, {
+        const cities = await import(`./countries/${country['alpha-3'].toLowerCase()}.json`, {
             assert: { type: "json" },
         })
         // console.log(cities.default)
@@ -180,29 +180,29 @@ export async function main() {
             if (mapLoLa(Tour, cities.default,)) {
 
             }
-            else {
-                // console.log("Not found teri: " + Tour.location)
-                const response = await fetch(
-                    `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
-                    new URLSearchParams({
-                        format: "json",
-                        countrycodes: country['alpha-2'],
-                        limit: "1",
-                        addressdetails: "1",
-                        "accept-language": "en-US,en"
-                    })
-                );
-                const nominatim = await response.json();
+            // else {
+            //     // console.log("Not found teri: " + Tour.location)
+            //     const response = await fetch(
+            //         `https://nominatim.openstreetmap.org/search/${Tour.location}?` +
+            //         new URLSearchParams({
+            //             format: "json",
+            //             countrycodes: country['alpha-2'],
+            //             limit: "1",
+            //             addressdetails: "1",
+            //             "accept-language": "en-US,en"
+            //         })
+            //     );
+            //     const nominatim = await response.json();
 
-                // add Tour marker
-                if (!(Object.keys(nominatim).length === 0)) {
-                    // console.log(`${Tour.location}<-Mapped->`);
-                    // console.log(nominatim[0])
-                    Tour.lat = Number(nominatim[0].lat)
-                    Tour.lon = Number(nominatim[0].lon)
-                    countermappedPlusNom++
-                }
-            }
+            //     // add Tour marker
+            //     if (!(Object.keys(nominatim).length === 0)) {
+            //         // console.log(`${Tour.location}<-Mapped->`);
+            //         // console.log(nominatim[0])
+            //         Tour.lat = Number(nominatim[0].lat)
+            //         Tour.lon = Number(nominatim[0].lon)
+            //         countermappedPlusNom++
+            //     }
+            // }
         }
         console.log(countermapped, '->', countermappedPlusNom + countermapped, "from", Tournaments.length)
 
