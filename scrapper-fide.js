@@ -134,6 +134,7 @@ function mapLoLa(Tour, CountryCities, country) {
 
 
 export async function main() {
+    // console.time("main");
     countermapped = 0;
     countermappedPlusNom = 0;
     const Tournaments = []
@@ -145,10 +146,9 @@ export async function main() {
             return obj.name.includes(countryname)
         })
         country = country[0]
-        console.log(country)
+        // console.log(country)
         if (!country) {
             console.log(`Country ${countryname} could not be found in list`)
-            // await keypress()
 
             continue
         }
@@ -216,6 +216,7 @@ export async function main() {
         fs.writeFileSync('tournaments.json', data);
     }
     // return (Tournaments)
+    // console.timeEnd("main");
     return ('success') // for testing purposes
 }
 
@@ -262,18 +263,19 @@ app.post('/contact', multer().none(), (req, res) => {
             // do something useful
         }
     });
-
     res.send({ status: 'SUCCESS' });
 
 })
 
 
-const keypress = async () => {
-    process.stdin.setRawMode(true)
-    return new Promise(resolve => process.stdin.once('data', () => {
-        process.stdin.setRawMode(false)
-        resolve()
-    }))
-}
+
 
 // await main()
+
+// for (const country of fidecountries) {
+//     // console.log(`${country} `)
+//     let res = slim3countries.find(el => el.name.includes(country))
+//     if (!res) {
+//         console.log(country)
+//     }
+// }

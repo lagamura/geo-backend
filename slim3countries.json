@@ -3,187 +3,194 @@
         "name": "Afghanistan",
         "alpha-3": "AFG",
         "country-code": "004",
-        "NOC": "AFG",
-        "alpha-2": "AF"
+        "alpha-2": "AF",
+        "IOC": "AFG"
     },
     {
         "name": "Åland Islands",
         "alpha-3": "ALA",
-        "country-code": "248"
+        "country-code": "248",
+        "alpha-2": "AX",
+        "IOC": ""
     },
     {
         "name": "Albania",
         "alpha-3": "ALB",
         "country-code": "008",
-        "NOC": "ALB",
-        "alpha-2": "AL"
+        "alpha-2": "AL",
+        "IOC": "ALB"
     },
     {
         "name": "Algeria",
         "alpha-3": "DZA",
         "country-code": "012",
-        "NOC": "ALG",
-        "alpha-2": "DZ"
+        "alpha-2": "DZ",
+        "IOC": "ALG"
     },
     {
         "name": "American Samoa",
         "alpha-3": "ASM",
         "country-code": "016",
         "alpha-2": "WS",
-        "NOC": "SAM"
+        "IOC": "SAM"
     },
     {
         "name": "Andorra",
         "alpha-3": "AND",
         "country-code": "020",
-        "NOC": "AND",
-        "alpha-2": "AD"
+        "alpha-2": "AD",
+        "IOC": "AND"
     },
     {
         "name": "Angola",
         "alpha-3": "AGO",
         "country-code": "024",
-        "NOC": "ANG",
-        "alpha-2": "AO"
+        "alpha-2": "AO",
+        "IOC": "ANG"
     },
     {
         "name": "Anguilla",
         "alpha-3": "AIA",
-        "country-code": "660"
+        "country-code": "660",
+        "alpha-2": "AI",
+        "IOC": ""
     },
     {
         "name": "Antarctica",
         "alpha-3": "ATA",
-        "country-code": "010"
+        "country-code": "010",
+        "alpha-2": "AQ",
+        "IOC": ""
     },
     {
         "name": "Antigua and Barbuda",
         "alpha-3": "ATG",
         "country-code": "028",
-        "NOC": "ANT",
         "alpha-2": "AG"
     },
     {
         "name": "Argentina",
         "alpha-3": "ARG",
         "country-code": "032",
-        "NOC": "ARG",
-        "alpha-2": "AR"
+        "alpha-2": "AR",
+        "IOC": "ARG"
     },
     {
         "name": "Armenia",
         "alpha-3": "ARM",
         "country-code": "051",
-        "NOC": "ARM",
-        "alpha-2": "AM"
+        "alpha-2": "AM",
+        "IOC": "ARM"
     },
     {
         "name": "Aruba",
         "alpha-3": "ABW",
-        "country-code": "533"
+        "country-code": "533",
+        "alpha-2": "AW",
+        "IOC": "ARU"
     },
     {
         "name": "Australia",
         "alpha-3": "AUS",
         "country-code": "036",
-        "NOC": "AUS",
-        "alpha-2": "AU"
+        "alpha-2": "AU",
+        "IOC": "AUS"
     },
     {
         "name": "Austria",
         "alpha-3": "AUT",
         "country-code": "040",
-        "NOC": "AUT",
-        "alpha-2": "AT"
+        "alpha-2": "AT",
+        "IOC": "AUT"
     },
     {
         "name": "Azerbaijan",
         "alpha-3": "AZE",
         "country-code": "031",
-        "NOC": "AZE",
-        "alpha-2": "AZ"
+        "alpha-2": "AZ",
+        "IOC": "AZE"
     },
     {
         "name": "Bahamas",
         "alpha-3": "BHS",
         "country-code": "044",
-        "NOC": "BAH",
-        "alpha-2": "BS"
+        "alpha-2": "BS",
+        "IOC": "BAH"
     },
     {
         "name": "Bahrain",
         "alpha-3": "BHR",
         "country-code": "048",
-        "NOC": "BRN",
-        "alpha-2": "BH"
+        "alpha-2": "BH",
+        "IOC": "BRN"
     },
     {
         "name": "Bangladesh",
         "alpha-3": "BGD",
         "country-code": "050",
-        "NOC": "BAN",
-        "alpha-2": "BD"
+        "alpha-2": "BD",
+        "IOC": "BAN"
     },
     {
         "name": "Barbados",
         "alpha-3": "BRB",
         "country-code": "052",
-        "NOC": "BAR",
-        "alpha-2": "BB"
+        "alpha-2": "BB",
+        "IOC": "BAR"
     },
     {
         "name": "Belarus",
         "alpha-3": "BLR",
         "country-code": "112",
-        "NOC": "BLR",
-        "alpha-2": "BY"
+        "alpha-2": "BY",
+        "IOC": "BLR"
     },
     {
         "name": "Belgium",
         "alpha-3": "BEL",
         "country-code": "056",
-        "NOC": "BEL",
-        "alpha-2": "BE"
+        "alpha-2": "BE",
+        "IOC": "BEL"
     },
     {
         "name": "Belize",
         "alpha-3": "BLZ",
         "country-code": "084",
-        "NOC": "BIZ",
-        "alpha-2": "BZ"
+        "alpha-2": "BZ",
+        "IOC": "BIZ"
     },
     {
         "name": "Benin",
         "alpha-3": "BEN",
         "country-code": "204",
-        "NOC": "BEN",
-        "alpha-2": "BJ"
+        "alpha-2": "BJ",
+        "IOC": "BEN"
     },
     {
         "name": "Bermuda",
         "alpha-3": "BMU",
-        "country-code": "060"
+        "country-code": "060",
+        "alpha-2": "BM",
+        "IOC": "BER"
     },
     {
         "name": "Bhutan",
         "alpha-3": "BTN",
         "country-code": "064",
-        "NOC": "BHU",
-        "alpha-2": "BT"
+        "alpha-2": "BT",
+        "IOC": "BHU"
     },
     {
         "name": "Bolivia (Plurinational State of)",
         "alpha-3": "BOL",
         "country-code": "068",
-        "alpha-2": "BO",
-        "NOC": "BOL"
+        "alpha-2": "BO"
     },
     {
         "name": "Bolivia",
         "alpha-3": "BOL",
         "country-code": "068",
-        "alpha-2": "BO",
-        "NOC": "BOL"
+        "alpha-2": "BO"
     },
     {
         "name": "Bonaire, Sint Eustatius and Saba",
@@ -194,180 +201,187 @@
         "name": "Bosnia and Herzegovina",
         "alpha-3": "BIH",
         "country-code": "070",
-        "NOC": "BIH",
         "alpha-2": "BA"
     },
     {
         "name": "Bosnia & Herzegovina",
         "alpha-3": "BIH",
         "country-code": "070",
-        "NOC": "BIH",
-        "alpha-2": "BA"
+        "alpha-2": "BA",
+        "IOC": "BIH"
     },
     {
         "name": "Botswana",
         "alpha-3": "BWA",
         "country-code": "072",
-        "NOC": "BOT",
-        "alpha-2": "BW"
+        "alpha-2": "BW",
+        "IOC": "BOT"
     },
     {
         "name": "Bouvet Island",
         "alpha-3": "BVT",
-        "country-code": "074"
+        "country-code": "074",
+        "alpha-2": "BV",
+        "IOC": ""
     },
     {
         "name": "Brazil",
         "alpha-3": "BRA",
         "country-code": "076",
-        "NOC": "BRA",
-        "alpha-2": "BR"
+        "alpha-2": "BR",
+        "IOC": "BRA"
     },
     {
         "name": "British Indian Ocean Territory",
         "alpha-3": "IOT",
         "country-code": "086",
-        "alpha-2": "IN",
-        "NOC": "IND"
+        "alpha-2": "IO",
+        "IOC": ""
     },
     {
         "name": "Brunei Darussalam",
         "alpha-3": "BRN",
         "country-code": "096",
         "alpha-2": "BN",
-        "NOC": "BRU"
+        "IOC": "BRU"
     },
     {
         "name": "Bulgaria",
         "alpha-3": "BGR",
         "country-code": "100",
-        "NOC": "BUL",
-        "alpha-2": "BG"
+        "alpha-2": "BG",
+        "IOC": "BUL"
     },
     {
         "name": "Burkina Faso",
         "alpha-3": "BFA",
         "country-code": "854",
-        "NOC": "BUR",
-        "alpha-2": "BF"
+        "alpha-2": "BF",
+        "IOC": "BUR"
     },
     {
         "name": "Burundi",
         "alpha-3": "BDI",
         "country-code": "108",
-        "NOC": "BDI",
-        "alpha-2": "BI"
+        "alpha-2": "BI",
+        "IOC": "BDI"
     },
     {
         "name": "Cabo Verde",
         "alpha-3": "CPV",
-        "country-code": "132"
+        "country-code": "132",
+        "alpha-2": "CV",
+        "IOC": "CPV"
     },
     {
         "name": "Cambodia",
         "alpha-3": "KHM",
         "country-code": "116",
-        "NOC": "CAM",
-        "alpha-2": "KH"
+        "alpha-2": "KH",
+        "IOC": "CAM"
     },
     {
         "name": "Cameroon",
         "alpha-3": "CMR",
         "country-code": "120",
-        "NOC": "CMR",
-        "alpha-2": "CM"
+        "alpha-2": "CM",
+        "IOC": "CMR"
     },
     {
         "name": "Canada",
         "alpha-3": "CAN",
         "country-code": "124",
-        "NOC": "CAN",
-        "alpha-2": "CA"
+        "alpha-2": "CA",
+        "IOC": "CAN"
     },
     {
         "name": "Cayman Islands",
         "alpha-3": "CYM",
-        "country-code": "136"
+        "country-code": "136",
+        "alpha-2": "KY",
+        "IOC": "CAY"
     },
     {
         "name": "Central African Republic",
         "alpha-3": "CAF",
         "country-code": "140",
-        "NOC": "CAF",
-        "alpha-2": "CF"
+        "alpha-2": "CF",
+        "IOC": "CAF"
     },
     {
         "name": "Chad",
         "alpha-3": "TCD",
         "country-code": "148",
-        "NOC": "CHA",
-        "alpha-2": "TD"
+        "alpha-2": "TD",
+        "IOC": "CHA"
     },
     {
         "name": "Chile",
         "alpha-3": "CHL",
         "country-code": "152",
-        "NOC": "CHI",
-        "alpha-2": "CL"
+        "alpha-2": "CL",
+        "IOC": "CHI"
     },
     {
         "name": "China",
         "alpha-3": "CHN",
         "country-code": "156",
-        "NOC": "CHN",
-        "alpha-2": "CN"
+        "alpha-2": "CN",
+        "IOC": "CHN"
     },
     {
         "name": "Christmas Island",
         "alpha-3": "CXR",
-        "country-code": "162"
+        "country-code": "162",
+        "alpha-2": "CX",
+        "IOC": ""
     },
     {
         "name": "Cocos (Keeling) Islands",
         "alpha-3": "CCK",
-        "country-code": "166"
+        "country-code": "166",
+        "alpha-2": "CC",
+        "IOC": ""
     },
     {
         "name": "Colombia",
         "alpha-3": "COL",
         "country-code": "170",
-        "NOC": "COL",
-        "alpha-2": "CO"
+        "alpha-2": "CO",
+        "IOC": "COL"
     },
     {
         "name": "Comoros",
         "alpha-3": "COM",
         "country-code": "174",
-        "NOC": "COM",
-        "alpha-2": "KM"
+        "alpha-2": "KM",
+        "IOC": "COM"
     },
     {
         "name": "Congo",
         "alpha-3": "COG",
         "country-code": "178",
-        "NOC": "CGO",
         "alpha-2": "CG"
     },
     {
         "name": "Congo, Democratic Republic of the",
         "alpha-3": "COD",
         "country-code": "180",
-        "alpha-2": "CG",
-        "NOC": "CGO"
+        "alpha-2": "CG"
     },
     {
         "name": "Cook Islands",
         "alpha-3": "COK",
         "country-code": "184",
-        "NOC": "COK",
-        "alpha-2": "CK"
+        "alpha-2": "CK",
+        "IOC": "COK"
     },
     {
         "name": "Costa Rica",
         "alpha-3": "CRI",
         "country-code": "188",
-        "NOC": "CRC",
-        "alpha-2": "CR"
+        "alpha-2": "CR",
+        "IOC": "CRC"
     },
     {
         "name": "Côte d'Ivoire",
@@ -378,15 +392,15 @@
         "name": "Croatia",
         "alpha-3": "HRV",
         "country-code": "191",
-        "NOC": "CRO",
-        "alpha-2": "HR"
+        "alpha-2": "HR",
+        "IOC": "CRO"
     },
     {
         "name": "Cuba",
         "alpha-3": "CUB",
         "country-code": "192",
-        "NOC": "CUB",
-        "alpha-2": "CU"
+        "alpha-2": "CU",
+        "IOC": "CUB"
     },
     {
         "name": "Curaçao",
@@ -397,8 +411,8 @@
         "name": "Cyprus",
         "alpha-3": "CYP",
         "country-code": "196",
-        "NOC": "CYP",
-        "alpha-2": "CY"
+        "alpha-2": "CY",
+        "IOC": "CYP"
     },
     {
         "name": "Czechia",
@@ -410,77 +424,77 @@
         "alpha-3": "CZE",
         "country-code": "203",
         "alpha-2": "CZ",
-        "NOC": "CZE"
+        "IOC": "CZE"
     },
     {
         "name": "Denmark",
         "alpha-3": "DNK",
         "country-code": "208",
-        "NOC": "DEN",
-        "alpha-2": "DK"
+        "alpha-2": "DK",
+        "IOC": "DEN"
     },
     {
         "name": "Djibouti",
         "alpha-3": "DJI",
         "country-code": "262",
-        "NOC": "DJI",
-        "alpha-2": "DJ"
+        "alpha-2": "DJ",
+        "IOC": "DJI"
     },
     {
         "name": "Dominica",
         "alpha-3": "DMA",
         "country-code": "212",
-        "NOC": "DMA",
-        "alpha-2": "DM"
+        "alpha-2": "DM",
+        "IOC": "DMA"
     },
     {
         "name": "Dominican Republic",
         "alpha-3": "DOM",
         "country-code": "214",
-        "NOC": "DOM",
-        "alpha-2": "DO"
+        "alpha-2": "DO",
+        "IOC": "DOM"
     },
     {
         "name": "Ecuador",
         "alpha-3": "ECU",
         "country-code": "218",
-        "NOC": "ECU",
-        "alpha-2": "EC"
+        "alpha-2": "EC",
+        "IOC": "ECU"
     },
     {
         "name": "Egypt",
         "alpha-3": "EGY",
         "country-code": "818",
-        "NOC": "EGY",
-        "alpha-2": "EG"
+        "alpha-2": "EG",
+        "IOC": "EGY"
     },
     {
         "name": "El Salvador",
         "alpha-3": "SLV",
         "country-code": "222",
-        "NOC": "ESA",
-        "alpha-2": "SV"
+        "alpha-2": "SV",
+        "IOC": "ESA"
     },
     {
         "name": "Equatorial Guinea",
         "alpha-3": "GNQ",
         "country-code": "226",
-        "NOC": "GUI",
-        "alpha-2": "GN"
+        "alpha-2": "GQ",
+        "IOC": "GEQ"
     },
     {
         "name": "Eritrea",
         "alpha-3": "ERI",
         "country-code": "232",
-        "NOC": "ERI",
-        "alpha-2": "ER"
+        "alpha-2": "ER",
+        "IOC": "ERI"
     },
     {
         "name": "Estonia",
         "alpha-3": "EST",
         "country-code": "233",
-        "NOC": "EST",
-        "alpha-2": "EE"
+        "alpha-2": "EE",
+        "IOC": "EST"
     },
     {
         "name": "Eswatini",
@@ -491,165 +505,183 @@
         "name": "Ethiopia",
         "alpha-3": "ETH",
         "country-code": "231",
-        "NOC": "ETH",
-        "alpha-2": "ET"
+        "alpha-2": "ET",
+        "IOC": "ETH"
     },
     {
         "name": "Falkland Islands (Malvinas)",
         "alpha-3": "FLK",
-        "country-code": "238"
+        "country-code": "238",
+        "alpha-2": "FK",
+        "IOC": ""
     },
     {
         "name": "Faroe Islands",
         "alpha-3": "FRO",
-        "country-code": "234"
+        "country-code": "234",
+        "alpha-2": "FO",
+        "IOC": "FAI"
     },
     {
         "name": "Fiji",
         "alpha-3": "FJI",
         "country-code": "242",
-        "NOC": "FIJ",
-        "alpha-2": "FJ"
+        "alpha-2": "FJ",
+        "IOC": "FIJ"
     },
     {
         "name": "Finland",
         "alpha-3": "FIN",
         "country-code": "246",
-        "NOC": "FIN",
-        "alpha-2": "FI"
+        "alpha-2": "FI",
+        "IOC": "FIN"
     },
     {
         "name": "France",
         "alpha-3": "FRA",
         "country-code": "250",
-        "NOC": "FRA",
-        "alpha-2": "FR"
+        "alpha-2": "FR",
+        "IOC": "FRA"
     },
     {
         "name": "French Guiana",
         "alpha-3": "GUF",
-        "country-code": "254"
+        "country-code": "254",
+        "alpha-2": "GF",
+        "IOC": ""
     },
     {
         "name": "French Polynesia",
         "alpha-3": "PYF",
-        "country-code": "258"
+        "country-code": "258",
+        "alpha-2": "PF",
+        "IOC": ""
     },
     {
         "name": "French Southern Territories",
         "alpha-3": "ATF",
-        "country-code": "260"
+        "country-code": "260",
+        "alpha-2": "TF",
+        "IOC": ""
     },
     {
         "name": "Gabon",
         "alpha-3": "GAB",
         "country-code": "266",
-        "NOC": "GAB",
-        "alpha-2": "GA"
+        "alpha-2": "GA",
+        "IOC": "GAB"
     },
     {
         "name": "Gambia",
         "alpha-3": "GMB",
         "country-code": "270",
-        "NOC": "GAM",
-        "alpha-2": "GM"
+        "alpha-2": "GM",
+        "IOC": "GAM"
     },
     {
         "name": "Georgia",
         "alpha-3": "GEO",
         "country-code": "268",
-        "NOC": "GEO",
-        "alpha-2": "GE"
+        "alpha-2": "GE",
+        "IOC": "GEO"
     },
     {
         "name": "Germany",
         "alpha-3": "DEU",
         "country-code": "276",
-        "NOC": "GER",
-        "alpha-2": "DE"
+        "alpha-2": "DE",
+        "IOC": "GER"
     },
     {
         "name": "Ghana",
         "alpha-3": "GHA",
         "country-code": "288",
-        "NOC": "GHA",
-        "alpha-2": "GH"
+        "alpha-2": "GH",
+        "IOC": "GHA"
     },
     {
         "name": "Gibraltar",
         "alpha-3": "GIB",
-        "country-code": "292"
+        "country-code": "292",
+        "alpha-2": "GI",
+        "IOC": ""
     },
     {
         "name": "Greece",
         "alpha-3": "GRC",
         "country-code": "300",
-        "NOC": "GRE",
-        "alpha-2": "GR"
+        "alpha-2": "GR",
+        "IOC": "GRE"
     },
     {
         "name": "Greenland",
         "alpha-3": "GRL",
-        "country-code": "304"
+        "country-code": "304",
+        "alpha-2": "GL",
+        "IOC": ""
     },
     {
         "name": "Grenada",
         "alpha-3": "GRD",
         "country-code": "308",
-        "NOC": "GRN",
-        "alpha-2": "GD"
+        "alpha-2": "GD",
+        "IOC": "GRN"
     },
     {
         "name": "Guadeloupe",
         "alpha-3": "GLP",
-        "country-code": "312"
+        "country-code": "312",
+        "alpha-2": "GP",
+        "IOC": ""
     },
     {
         "name": "Guam",
         "alpha-3": "GUM",
         "country-code": "316",
-        "NOC": "GUM",
-        "alpha-2": "GU"
+        "alpha-2": "GU",
+        "IOC": "GUM"
     },
     {
         "name": "Guatemala",
         "alpha-3": "GTM",
         "country-code": "320",
-        "NOC": "GUA",
-        "alpha-2": "GT"
+        "alpha-2": "GT",
+        "IOC": "GUA"
     },
     {
         "name": "Guernsey",
         "alpha-3": "GGY",
-        "country-code": "831"
+        "country-code": "831",
+        "alpha-2": "GG",
+        "IOC": "GCI"
     },
     {
         "name": "Guinea",
         "alpha-3": "GIN",
         "country-code": "324",
-        "NOC": "GUI",
-        "alpha-2": "GN"
+        "alpha-2": "GN",
+        "IOC": "GUI"
     },
     {
         "name": "Guinea-Bissau",
         "alpha-3": "GNB",
         "country-code": "624",
-        "NOC": "GBS",
-        "alpha-2": "GW"
+        "alpha-2": "GN",
+        "IOC": "GUI"
     },
     {
         "name": "Guyana",
         "alpha-3": "GUY",
         "country-code": "328",
-        "NOC": "GUY",
-        "alpha-2": "GY"
+        "alpha-2": "GY",
+        "IOC": "GUY"
     },
     {
         "name": "Haiti",
         "alpha-3": "HTI",
         "country-code": "332",
-        "NOC": "HAI",
-        "alpha-2": "HT"
+        "alpha-2": "HT",
+        "IOC": "HAI"
     },
     {
         "name": "Heard Island and McDonald Islands",
@@ -665,69 +697,69 @@
         "name": "Honduras",
         "alpha-3": "HND",
         "country-code": "340",
-        "NOC": "HON",
-        "alpha-2": "HN"
+        "alpha-2": "HN",
+        "IOC": "HON"
     },
     {
         "name": "Hong Kong",
         "alpha-3": "HKG",
-        "country-code": "344"
+        "country-code": "344",
+        "alpha-2": "HK",
+        "IOC": "HKG"
     },
     {
         "name": "Hungary",
         "alpha-3": "HUN",
         "country-code": "348",
-        "NOC": "HUN",
-        "alpha-2": "HU"
+        "alpha-2": "HU",
+        "IOC": "HUN"
     },
     {
         "name": "Iceland",
         "alpha-3": "ISL",
         "country-code": "352",
-        "NOC": "ISL",
-        "alpha-2": "IS"
+        "alpha-2": "IS",
+        "IOC": "ISL"
     },
     {
         "name": "India",
         "alpha-3": "IND",
         "country-code": "356",
-        "NOC": "IND",
-        "alpha-2": "IN"
+        "alpha-2": "IN",
+        "IOC": "IND"
     },
     {
         "name": "Indonesia",
         "alpha-3": "IDN",
         "country-code": "360",
-        "NOC": "INA",
-        "alpha-2": "ID"
+        "alpha-2": "ID",
+        "IOC": "INA"
     },
     {
         "name": "Iran (Islamic Republic of)",
         "alpha-3": "IRN",
         "country-code": "364",
-        "alpha-2": "IR",
-        "NOC": "IRI"
+        "alpha-2": "IR"
     },
     {
         "name": "Iran (Islamic Republic of)",
         "alpha-3": "IRN",
         "country-code": "364",
-        "NOC": "IRI",
         "alpha-2": "IR"
     },
     {
         "name": "Iraq",
         "alpha-3": "IRQ",
         "country-code": "368",
-        "NOC": "IRQ",
-        "alpha-2": "IQ"
+        "alpha-2": "IQ",
+        "IOC": "IRQ"
     },
     {
         "name": "Ireland",
         "alpha-3": "IRL",
         "country-code": "372",
-        "NOC": "IRL",
-        "alpha-2": "IE"
+        "alpha-2": "IE",
+        "IOC": "IRL"
     },
     {
         "name": "Isle of Man",
@@ -738,60 +770,64 @@
         "name": "Israel",
         "alpha-3": "ISR",
         "country-code": "376",
-        "NOC": "ISR",
-        "alpha-2": "IL"
+        "alpha-2": "IL",
+        "IOC": "ISR"
     },
     {
         "name": "Italy",
         "alpha-3": "ITA",
         "country-code": "380",
-        "NOC": "ITA",
-        "alpha-2": "IT"
+        "alpha-2": "IT",
+        "IOC": "ITA"
     },
     {
         "name": "Jamaica",
         "alpha-3": "JAM",
         "country-code": "388",
-        "NOC": "JAM",
-        "alpha-2": "JM"
+        "alpha-2": "JM",
+        "IOC": "JAM"
     },
     {
         "name": "Japan",
         "alpha-3": "JPN",
         "country-code": "392",
-        "NOC": "JPN",
-        "alpha-2": "JP"
+        "alpha-2": "JP",
+        "IOC": "JPN"
     },
     {
         "name": "Jersey",
         "alpha-3": "JEY",
-        "country-code": "832"
+        "country-code": "832",
+        "alpha-2": "JE",
+        "IOC": "JCI"
     },
     {
         "name": "Jordan",
         "alpha-3": "JOR",
         "country-code": "400",
-        "NOC": "JOR",
-        "alpha-2": "JO"
+        "alpha-2": "JO",
+        "IOC": "JOR"
     },
     {
         "name": "Kazakhstan",
         "alpha-3": "KAZ",
         "country-code": "398",
-        "NOC": "KAZ",
-        "alpha-2": "KZ"
+        "alpha-2": "KZ",
+        "IOC": "KAZ"
     },
     {
         "name": "Kenya",
         "alpha-3": "KEN",
         "country-code": "404",
-        "NOC": "KEN",
-        "alpha-2": "KE"
+        "alpha-2": "KE",
+        "IOC": "KEN"
     },
     {
         "name": "Kiribati",
         "alpha-3": "KIR",
-        "country-code": "296"
+        "country-code": "296",
+        "alpha-2": "KI",
+        "IOC": "KIR"
     },
     {
         "name": "Korea (Democratic People's Republic of)",
@@ -802,439 +838,455 @@
         "name": "Korea, Republic of",
         "alpha-3": "KOR",
         "country-code": "410",
-        "NOC": "KOR",
         "alpha-2": "KR"
     },
     {
         "name": "South Korea, Republic of",
         "alpha-3": "KOR",
         "country-code": "410",
-        "NOC": "KOR",
         "alpha-2": "KR"
     },
     {
         "name": "Kuwait",
         "alpha-3": "KWT",
         "country-code": "414",
-        "NOC": "KUW",
-        "alpha-2": "KW"
+        "alpha-2": "KW",
+        "IOC": "KUW"
     },
     {
         "name": "Kyrgyzstan",
         "alpha-3": "KGZ",
         "country-code": "417",
-        "NOC": "KGZ",
-        "alpha-2": "KG"
+        "alpha-2": "KG",
+        "IOC": "KGZ"
     },
     {
         "name": "Lao People's Democratic Republic",
         "alpha-3": "LAO",
         "country-code": "418",
-        "NOC": "LAO",
-        "alpha-2": "LA"
+        "alpha-2": "LA",
+        "IOC": "LAO"
     },
     {
         "name": "Laos",
         "alpha-3": "LAO",
         "country-code": "418",
-        "NOC": "LAO",
         "alpha-2": "LA"
     },
     {
         "name": "Latvia",
         "alpha-3": "LVA",
         "country-code": "428",
-        "NOC": "LAT",
-        "alpha-2": "LV"
+        "alpha-2": "LV",
+        "IOC": "LAT"
     },
     {
         "name": "Lebanon",
         "alpha-3": "LBN",
         "country-code": "422",
-        "NOC": "LIB",
-        "alpha-2": "LB"
+        "alpha-2": "LB",
+        "IOC": "LIB"
     },
     {
         "name": "Lesotho",
         "alpha-3": "LSO",
         "country-code": "426",
-        "NOC": "LES",
-        "alpha-2": "LS"
+        "alpha-2": "LS",
+        "IOC": "LES"
     },
     {
         "name": "Liberia",
         "alpha-3": "LBR",
         "country-code": "430",
-        "NOC": "LBR",
-        "alpha-2": "LR"
+        "alpha-2": "LR",
+        "IOC": "LBR"
     },
     {
         "name": "Libya",
         "alpha-3": "LBY",
         "country-code": "434",
-        "NOC": "LBA",
-        "alpha-2": "LY"
+        "alpha-2": "LY",
+        "IOC": "LBA"
     },
     {
         "name": "Liechtenstein",
         "alpha-3": "LIE",
         "country-code": "438",
-        "NOC": "LIE",
-        "alpha-2": "LI"
+        "alpha-2": "LI",
+        "IOC": "LIE"
     },
     {
         "name": "Lithuania",
         "alpha-3": "LTU",
         "country-code": "440",
-        "NOC": "LTU",
-        "alpha-2": "LT"
+        "alpha-2": "LT",
+        "IOC": "LTU"
     },
     {
         "name": "Luxembourg",
         "alpha-3": "LUX",
         "country-code": "442",
-        "NOC": "LUX",
-        "alpha-2": "LU"
+        "alpha-2": "LU",
+        "IOC": "LUX"
     },
     {
         "name": "Macao",
         "alpha-3": "MAC",
         "country-code": "446",
-        "NOC": "MAC",
-        "alpha-2": "MO"
+        "alpha-2": "MO",
+        "IOC": "MAC"
     },
     {
         "name": "Macau",
         "alpha-3": "MAC",
         "country-code": "446",
-        "NOC": "MAC",
         "alpha-2": "MO"
     },
     {
         "name": "Madagascar",
         "alpha-3": "MDG",
         "country-code": "450",
-        "NOC": "MAD",
-        "alpha-2": "MG"
+        "alpha-2": "MG",
+        "IOC": "MAD"
     },
     {
         "name": "Malawi",
         "alpha-3": "MWI",
         "country-code": "454",
-        "NOC": "MAW",
-        "alpha-2": "MW"
+        "alpha-2": "MW",
+        "IOC": "MAW"
     },
     {
         "name": "Malaysia",
         "alpha-3": "MYS",
         "country-code": "458",
-        "NOC": "MAS",
-        "alpha-2": "MY"
+        "alpha-2": "MY",
+        "IOC": "MAS"
     },
     {
         "name": "Maldives",
         "alpha-3": "MDV",
         "country-code": "462",
-        "NOC": "MDV",
-        "alpha-2": "MV"
+        "alpha-2": "MV",
+        "IOC": "MDV"
     },
     {
         "name": "Mali",
         "alpha-3": "MLI",
         "country-code": "466",
-        "NOC": "MLI",
-        "alpha-2": "ML"
+        "alpha-2": "ML",
+        "IOC": "MLI"
     },
     {
         "name": "Malta",
         "alpha-3": "MLT",
         "country-code": "470",
-        "NOC": "MLT",
-        "alpha-2": "MT"
+        "alpha-2": "MT",
+        "IOC": "MLT"
     },
     {
         "name": "Marshall Islands",
         "alpha-3": "MHL",
-        "country-code": "584"
+        "country-code": "584",
+        "alpha-2": "MH",
+        "IOC": "MHL"
     },
     {
         "name": "Martinique",
         "alpha-3": "MTQ",
-        "country-code": "474"
+        "country-code": "474",
+        "alpha-2": "MQ",
+        "IOC": ""
     },
     {
         "name": "Mauritania",
         "alpha-3": "MRT",
         "country-code": "478",
-        "NOC": "MTN",
-        "alpha-2": "MR"
+        "alpha-2": "MR",
+        "IOC": "MTN"
     },
     {
         "name": "Mauritius",
         "alpha-3": "MUS",
         "country-code": "480",
-        "NOC": "MRI",
-        "alpha-2": "MU"
+        "alpha-2": "MU",
+        "IOC": "MRI"
     },
     {
         "name": "Mayotte",
         "alpha-3": "MYT",
-        "country-code": "175"
+        "country-code": "175",
+        "alpha-2": "YT",
+        "IOC": ""
     },
     {
         "name": "Mexico",
         "alpha-3": "MEX",
         "country-code": "484",
-        "NOC": "MEX",
-        "alpha-2": "MX"
+        "alpha-2": "MX",
+        "IOC": "MEX"
     },
     {
         "name": "Micronesia (Federated States of)",
         "alpha-3": "FSM",
         "country-code": "583",
-        "alpha-2": "FM",
-        "NOC": "FSM"
+        "alpha-2": "FM"
     },
     {
         "name": "Moldova, Republic of",
         "alpha-3": "MDA",
         "country-code": "498",
         "alpha-2": "MD",
-        "NOC": "MDA"
+        "IOC": "MDA"
     },
     {
         "name": "Monaco",
         "alpha-3": "MCO",
         "country-code": "492",
-        "NOC": "MON",
-        "alpha-2": "MC"
+        "alpha-2": "MC",
+        "IOC": "MON"
     },
     {
         "name": "Mongolia",
         "alpha-3": "MNG",
         "country-code": "496",
-        "NOC": "MGL",
-        "alpha-2": "MN"
+        "alpha-2": "MN",
+        "IOC": "MGL"
     },
     {
         "name": "Montenegro",
         "alpha-3": "MNE",
-        "country-code": "499"
+        "country-code": "499",
+        "alpha-2": "ME",
+        "IOC": "MNE"
     },
     {
         "name": "Montserrat",
         "alpha-3": "MSR",
-        "country-code": "500"
+        "country-code": "500",
+        "alpha-2": "MS",
+        "IOC": ""
     },
     {
         "name": "Morocco",
         "alpha-3": "MAR",
         "country-code": "504",
-        "NOC": "MAR",
-        "alpha-2": "MA"
+        "alpha-2": "MA",
+        "IOC": "MAR"
     },
     {
         "name": "Mozambique",
         "alpha-3": "MOZ",
         "country-code": "508",
-        "NOC": "MOZ",
-        "alpha-2": "MZ"
+        "alpha-2": "MZ",
+        "IOC": "MOZ"
     },
     {
         "name": "Myanmar",
         "alpha-3": "MMR",
-        "country-code": "104"
+        "country-code": "104",
+        "alpha-2": "MM",
+        "IOC": "MYA"
     },
     {
         "name": "Namibia",
         "alpha-3": "NAM",
         "country-code": "516",
-        "NOC": "NAM",
-        "alpha-2": ""
+        "alpha-2": "NA",
+        "IOC": "NAM"
     },
     {
         "name": "Nauru",
         "alpha-3": "NRU",
         "country-code": "520",
-        "NOC": "NRU",
-        "alpha-2": "NR"
+        "alpha-2": "NR",
+        "IOC": "NRU"
     },
     {
         "name": "Nepal",
         "alpha-3": "NPL",
         "country-code": "524",
-        "NOC": "NEP",
-        "alpha-2": "NP"
+        "alpha-2": "NP",
+        "IOC": "NEP"
     },
     {
         "name": "Netherlands",
         "alpha-3": "NLD",
         "country-code": "528",
-        "NOC": "NED",
-        "alpha-2": "NL"
+        "alpha-2": "NL",
+        "IOC": "NED"
     },
     {
         "name": "New Caledonia",
         "alpha-3": "NCL",
-        "country-code": "540"
+        "country-code": "540",
+        "alpha-2": "NC",
+        "IOC": ""
     },
     {
         "name": "New Zealand",
         "alpha-3": "NZL",
         "country-code": "554",
-        "NOC": "NZL",
-        "alpha-2": "NZ"
+        "alpha-2": "NZ",
+        "IOC": "NZL"
     },
     {
         "name": "Nicaragua",
         "alpha-3": "NIC",
         "country-code": "558",
-        "NOC": "NCA",
-        "alpha-2": "NI"
+        "alpha-2": "NI",
+        "IOC": "NCA"
     },
     {
         "name": "Niger",
         "alpha-3": "NER",
         "country-code": "562",
-        "NOC": "NIG",
-        "alpha-2": "NE"
+        "alpha-2": "NE",
+        "IOC": "NIG"
     },
     {
         "name": "Nigeria",
         "alpha-3": "NGA",
         "country-code": "566",
-        "NOC": "NGR",
-        "alpha-2": "NG"
+        "alpha-2": "NG",
+        "IOC": "NGR"
     },
     {
         "name": "Niue",
         "alpha-3": "NIU",
-        "country-code": "570"
+        "country-code": "570",
+        "alpha-2": "NU",
+        "IOC": ""
     },
     {
         "name": "Norfolk Island",
         "alpha-3": "NFK",
-        "country-code": "574"
+        "country-code": "574",
+        "alpha-2": "NF",
+        "IOC": ""
     },
     {
         "name": "North Macedonia",
         "alpha-3": "MKD",
         "country-code": "807",
-        "alpha-2": "MK",
-        "NOC": "MKD"
+        "alpha-2": "MK"
     },
     {
         "name": "Former YUG Rep of Macedonia",
         "alpha-3": "MKD",
         "country-code": "807",
-        "NOC": "MKD",
         "alpha-2": "MK"
     },
     {
         "name": "Northern Mariana Islands",
         "alpha-3": "MNP",
-        "country-code": "580"
+        "country-code": "580",
+        "alpha-2": "MP",
+        "IOC": ""
     },
     {
         "name": "Norway",
         "alpha-3": "NOR",
         "country-code": "578",
-        "NOC": "NOR",
-        "alpha-2": "NO"
+        "alpha-2": "NO",
+        "IOC": "NOR"
     },
     {
         "name": "Oman",
         "alpha-3": "OMN",
         "country-code": "512",
-        "NOC": "OMA",
-        "alpha-2": "OM"
+        "alpha-2": "OM",
+        "IOC": "OMA"
     },
     {
         "name": "Pakistan",
         "alpha-3": "PAK",
         "country-code": "586",
-        "NOC": "PAK",
-        "alpha-2": "PK"
+        "alpha-2": "PK",
+        "IOC": "PAK"
     },
     {
         "name": "Palau",
         "alpha-3": "PLW",
         "country-code": "585",
-        "NOC": "PLW",
-        "alpha-2": "PW"
+        "alpha-2": "PW",
+        "IOC": "PLW"
     },
     {
         "name": "Palestine, State of",
         "alpha-3": "PSE",
         "country-code": "275",
-        "NOC": "PLE",
         "alpha-2": "PS"
     },
     {
         "name": "Panama",
         "alpha-3": "PAN",
         "country-code": "591",
-        "NOC": "PAN",
-        "alpha-2": "PA"
+        "alpha-2": "PA",
+        "IOC": "PAN"
     },
     {
         "name": "Papua New Guinea",
         "alpha-3": "PNG",
         "country-code": "598",
-        "NOC": "PNG",
-        "alpha-2": "PG"
+        "alpha-2": "PG",
+        "IOC": "PNG"
     },
     {
         "name": "Paraguay",
         "alpha-3": "PRY",
         "country-code": "600",
-        "NOC": "PAR",
-        "alpha-2": "PY"
+        "alpha-2": "PY",
+        "IOC": "PAR"
     },
     {
         "name": "Peru",
         "alpha-3": "PER",
         "country-code": "604",
-        "NOC": "PER",
-        "alpha-2": "PE"
+        "alpha-2": "PE",
+        "IOC": "PER"
     },
     {
         "name": "Philippines",
         "alpha-3": "PHL",
         "country-code": "608",
-        "NOC": "PHI",
-        "alpha-2": "PH"
+        "alpha-2": "PH",
+        "IOC": "PHI"
     },
     {
         "name": "Pitcairn",
         "alpha-3": "PCN",
-        "country-code": "612"
+        "country-code": "612",
+        "alpha-2": "PN",
+        "IOC": ""
     },
     {
         "name": "Poland",
         "alpha-3": "POL",
         "country-code": "616",
-        "NOC": "POL",
-        "alpha-2": "PL"
+        "alpha-2": "PL",
+        "IOC": "POL"
     },
     {
         "name": "Portugal",
         "alpha-3": "PRT",
         "country-code": "620",
-        "NOC": "POR",
-        "alpha-2": "PT"
+        "alpha-2": "PT",
+        "IOC": "POR"
     },
     {
         "name": "Puerto Rico",
         "alpha-3": "PRI",
-        "country-code": "630"
+        "country-code": "630",
+        "alpha-2": "PR",
+        "IOC": "PUR"
     },
     {
         "name": "Qatar",
         "alpha-3": "QAT",
         "country-code": "634",
-        "NOC": "QAT",
-        "alpha-2": "QA"
+        "alpha-2": "QA",
+        "IOC": "QAT"
     },
     {
         "name": "Réunion",
@@ -1245,27 +1297,29 @@
         "name": "Romania",
         "alpha-3": "ROU",
         "country-code": "642",
-        "NOC": "ROM",
-        "alpha-2": "RO"
+        "alpha-2": "RO",
+        "IOC": "ROU"
     },
     {
         "name": "Russian Federation",
         "alpha-3": "RUS",
         "country-code": "643",
         "alpha-2": "RU",
-        "NOC": "RUS"
+        "IOC": "RUS"
     },
     {
         "name": "Rwanda",
         "alpha-3": "RWA",
         "country-code": "646",
-        "NOC": "RWA",
-        "alpha-2": "RW"
+        "alpha-2": "RW",
+        "IOC": "RWA"
     },
     {
         "name": "Saint Barthélemy",
         "alpha-3": "BLM",
-        "country-code": "652"
+        "country-code": "652",
+        "alpha-2": "BL",
+        "IOC": ""
     },
     {
         "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -1276,20 +1330,21 @@
         "name": "Saint Kitts and Nevis",
         "alpha-3": "KNA",
         "country-code": "659",
-        "NOC": "SKN",
         "alpha-2": "KN"
     },
     {
         "name": "Saint Lucia",
         "alpha-3": "LCA",
         "country-code": "662",
-        "NOC": "LCA",
-        "alpha-2": "LC"
+        "alpha-2": "LC",
+        "IOC": "LCA"
     },
     {
         "name": "Saint Martin (French part)",
         "alpha-3": "MAF",
-        "country-code": "663"
+        "country-code": "663",
+        "alpha-2": "MF",
+        "IOC": ""
     },
     {
         "name": "Saint Pierre and Miquelon",
@@ -1300,159 +1355,158 @@
         "name": "Saint Vincent and the Grenadines",
         "alpha-3": "VCT",
         "country-code": "670",
-        "NOC": "VIN",
         "alpha-2": "VC"
     },
     {
         "name": "Samoa",
         "alpha-3": "WSM",
         "country-code": "882",
-        "NOC": "SAM",
-        "alpha-2": "WS"
+        "alpha-2": "WS",
+        "IOC": "SAM"
     },
     {
         "name": "San Marino",
         "alpha-3": "SMR",
         "country-code": "674",
-        "NOC": "SMR",
-        "alpha-2": "SM"
+        "alpha-2": "SM",
+        "IOC": "SMR"
     },
     {
         "name": "Sao Tome and Principe",
         "alpha-3": "STP",
         "country-code": "678",
-        "NOC": "STP",
         "alpha-2": "ST"
     },
     {
         "name": "Saudi Arabia",
         "alpha-3": "SAU",
         "country-code": "682",
-        "NOC": "KSA",
-        "alpha-2": "SA"
+        "alpha-2": "SA",
+        "IOC": "KSA"
     },
     {
         "name": "Senegal",
         "alpha-3": "SEN",
         "country-code": "686",
-        "NOC": "SEN",
-        "alpha-2": "SN"
+        "alpha-2": "SN",
+        "IOC": "SEN"
     },
     {
         "name": "Serbia",
         "alpha-3": "SRB",
         "country-code": "688",
-        "NOC": "SCG",
-        "alpha-2": "RS"
+        "alpha-2": "RS",
+        "IOC": "SRB"
     },
     {
         "name": "Seychelles",
         "alpha-3": "SYC",
         "country-code": "690",
-        "NOC": "SEY",
-        "alpha-2": "SC"
+        "alpha-2": "SC",
+        "IOC": "SEY"
     },
     {
         "name": "Sierra Leone",
         "alpha-3": "SLE",
         "country-code": "694",
-        "NOC": "SLE",
-        "alpha-2": "SL"
+        "alpha-2": "SL",
+        "IOC": "SLE"
     },
     {
         "name": "Singapore",
         "alpha-3": "SGP",
         "country-code": "702",
-        "NOC": "SIN",
-        "alpha-2": "SG"
+        "alpha-2": "SG",
+        "IOC": "SIN"
     },
     {
         "name": "Sint Maarten (Dutch part)",
         "alpha-3": "SXM",
-        "country-code": "534"
+        "country-code": "534",
+        "alpha-2": "SX",
+        "IOC": ""
     },
     {
         "name": "Slovakia",
         "alpha-3": "SVK",
         "country-code": "703",
-        "NOC": "SVK",
-        "alpha-2": "SK"
+        "alpha-2": "SK",
+        "IOC": "SVK"
     },
     {
         "name": "Slovenia",
         "alpha-3": "SVN",
         "country-code": "705",
-        "NOC": "SLO",
-        "alpha-2": "SI"
+        "alpha-2": "SI",
+        "IOC": "SLO"
     },
     {
         "name": "Solomon Islands",
         "alpha-3": "SLB",
         "country-code": "090",
-        "NOC": "SOL",
-        "alpha-2": "SB"
+        "alpha-2": "SB",
+        "IOC": "SOL"
     },
     {
         "name": "Somalia",
         "alpha-3": "SOM",
         "country-code": "706",
-        "NOC": "SOM",
-        "alpha-2": "SO"
+        "alpha-2": "SO",
+        "IOC": "SOM"
     },
     {
         "name": "South Africa",
         "alpha-3": "ZAF",
         "country-code": "710",
-        "NOC": "RSA",
-        "alpha-2": "ZA"
+        "alpha-2": "ZA",
+        "IOC": "RSA"
     },
     {
         "name": "South Georgia and the South Sandwich Islands",
         "alpha-3": "SGS",
         "country-code": "239",
         "alpha-2": "GE",
-        "NOC": "GEO"
+        "IOC": "GEO"
     },
     {
         "name": "South Sudan",
         "alpha-3": "SSD",
         "country-code": "728",
-        "alpha-2": "SD",
-        "NOC": "SUD"
+        "alpha-2": "SS",
+        "IOC": ""
     },
     {
         "name": "Spain",
         "alpha-3": "ESP",
         "country-code": "724",
-        "NOC": "ESP",
-        "alpha-2": "ES"
+        "alpha-2": "ES",
+        "IOC": "ESP"
     },
     {
         "name": "Sri Lanka",
         "alpha-3": "LKA",
         "country-code": "144",
-        "NOC": "SRI",
-        "alpha-2": "LK"
+        "alpha-2": "LK",
+        "IOC": "SRI"
     },
     {
         "name": "Sudan",
         "alpha-3": "SDN",
         "country-code": "729",
-        "NOC": "SUD",
-        "alpha-2": "SD"
+        "alpha-2": "SD",
+        "IOC": "SUD"
     },
     {
         "name": "Suriname",
         "alpha-3": "SUR",
         "country-code": "740",
-        "NOC": "SUR",
-        "alpha-2": "SR"
+        "alpha-2": "SR",
+        "IOC": "SUR"
     },
     {
         "name": "Surinam",
         "alpha-3": "SUR",
         "country-code": "740",
-        "NOC": "SUR",
         "alpha-2": "SR"
     },
     {
@@ -1464,64 +1518,61 @@
         "name": "Sweden",
         "alpha-3": "SWE",
         "country-code": "752",
-        "NOC": "SWE",
-        "alpha-2": "SE"
+        "alpha-2": "SE",
+        "IOC": "SWE"
     },
     {
         "name": "Switzerland",
         "alpha-3": "CHE",
         "country-code": "756",
-        "NOC": "SUI",
-        "alpha-2": "CH"
+        "alpha-2": "CH",
+        "IOC": "SUI"
     },
     {
         "name": "Syrian Arab Republic",
         "alpha-3": "SYR",
         "country-code": "760",
         "alpha-2": "SY",
-        "NOC": "SYR"
+        "IOC": "SYR"
     },
     {
         "name": "Syria",
         "alpha-3": "SYR",
         "country-code": "760",
-        "alpha-2": "SY",
-        "NOC": "SYR"
+        "alpha-2": "SY"
     },
     {
         "name": "Taiwan, Province of China",
         "alpha-3": "TWN",
         "country-code": "158",
-        "NOC": "TPE",
-        "alpha-2": "TW"
+        "alpha-2": "CN",
+        "IOC": "CHN"
     },
     {
         "name": "Chinese Taipei",
         "alpha-3": "TWN",
         "country-code": "158",
-        "NOC": "TPE",
         "alpha-2": "TW"
     },
     {
         "name": "Tajikistan",
         "alpha-3": "TJK",
         "country-code": "762",
-        "NOC": "TJK",
-        "alpha-2": "TJ"
+        "alpha-2": "TJ",
+        "IOC": "TJK"
     },
     {
         "name": "Tanzania, United Republic of",
         "alpha-3": "TZA",
         "country-code": "834",
-        "alpha-2": "TZ",
-        "NOC": "TAN"
+        "alpha-2": "TZ"
     },
     {
         "name": "Thailand",
         "alpha-3": "THA",
         "country-code": "764",
-        "NOC": "THA",
-        "alpha-2": "TH"
+        "alpha-2": "TH",
+        "IOC": "THA"
     },
     {
         "name": "Timor-Leste",
@@ -1532,55 +1583,62 @@
         "name": "Togo",
         "alpha-3": "TGO",
         "country-code": "768",
-        "NOC": "TOG",
-        "alpha-2": "TG"
+        "alpha-2": "TG",
+        "IOC": "TOG"
     },
     {
         "name": "Tokelau",
         "alpha-3": "TKL",
-        "country-code": "772"
+        "country-code": "772",
+        "alpha-2": "TK",
+        "IOC": ""
     },
     {
         "name": "Tonga",
         "alpha-3": "TON",
         "country-code": "776",
-        "NOC": "TGA",
-        "alpha-2": "TO"
+        "alpha-2": "TO",
+        "IOC": "TGA"
     },
     {
         "name": "Trinidad and Tobago",
         "alpha-3": "TTO",
         "country-code": "780",
-        "NOC": "TRI",
         "alpha-2": "TT"
     },
     {
         "name": "Trinidad & Tobago",
         "alpha-3": "TTO",
         "country-code": "780",
-        "NOC": "TRI",
         "alpha-2": "TT"
     },
     {
         "name": "Tunisia",
         "alpha-3": "TUN",
         "country-code": "788",
-        "NOC": "TUN",
-        "alpha-2": "TN"
+        "alpha-2": "TN",
+        "IOC": "TUN"
     },
     {
         "name": "Turkey",
         "alpha-3": "TUR",
         "country-code": "792",
-        "NOC": "TUR",
-        "alpha-2": "TR"
+        "alpha-2": "TR",
+        "IOC": "TUR"
+    },
+    {
+        "name": "Turkiye",
+        "alpha-3": "TUR",
+        "country-code": "792",
+        "alpha-2": "TR",
+        "IOC": "TUR"
     },
     {
         "name": "Turkmenistan",
         "alpha-3": "TKM",
         "country-code": "795",
-        "NOC": "TKM",
-        "alpha-2": "TM"
+        "alpha-2": "TM",
+        "IOC": "TKM"
     },
     {
         "name": "Turks and Caicos Islands",
@@ -1590,121 +1648,122 @@
     {
         "name": "Tuvalu",
         "alpha-3": "TUV",
-        "country-code": "798"
+        "country-code": "798",
+        "alpha-2": "TV",
+        "IOC": "TUV"
     },
     {
         "name": "Uganda",
         "alpha-3": "UGA",
         "country-code": "800",
-        "NOC": "UGA",
-        "alpha-2": "UG"
+        "alpha-2": "UG",
+        "IOC": "UGA"
     },
     {
         "name": "Ukraine",
         "alpha-3": "UKR",
         "country-code": "804",
-        "NOC": "UKR",
-        "alpha-2": "UA"
+        "alpha-2": "UA",
+        "IOC": "UKR"
     },
     {
         "name": "United Arab Emirates",
         "alpha-3": "ARE",
         "country-code": "784",
-        "NOC": "UAE",
-        "alpha-2": "AE"
+        "alpha-2": "AE",
+        "IOC": "UAE"
     },
     {
         "name": "United Kingdom of Great Britain and Northern Ireland",
         "alpha-3": "GBR",
         "country-code": "826",
-        "NOC": "GBR",
-        "alpha-2": "GB"
+        "alpha-2": "UK",
+        "IOC": ""
     },
     {
         "name": "United Kingdom of Great Britain and Northern Ireland, England, Scotland, Wales",
         "alpha-3": "GBR",
         "country-code": "826",
-        "NOC": "GBR",
-        "alpha-2": "GB"
+        "alpha-2": "UK",
+        "IOC": ""
     },
     {
         "name": "United States of America",
         "alpha-3": "USA",
         "country-code": "840",
         "alpha-2": "US",
-        "NOC": "USA"
+        "IOC": "USA"
     },
     {
         "name": "United States Minor Outlying Islands",
         "alpha-3": "UMI",
         "country-code": "581",
         "alpha-2": "US",
-        "NOC": "USA"
+        "IOC": "USA"
     },
     {
         "name": "Uruguay",
         "alpha-3": "URY",
         "country-code": "858",
-        "NOC": "URU",
-        "alpha-2": "UY"
+        "alpha-2": "UY",
+        "IOC": "URU"
     },
     {
         "name": "Uzbekistan",
         "alpha-3": "UZB",
         "country-code": "860",
-        "NOC": "UZB",
-        "alpha-2": "UZ"
+        "alpha-2": "UZ",
+        "IOC": "UZB"
     },
     {
         "name": "Vanuatu",
         "alpha-3": "VUT",
         "country-code": "548",
-        "NOC": "VAN",
-        "alpha-2": "VU"
+        "alpha-2": "VU",
+        "IOC": "VAN"
     },
     {
         "name": "Venezuela (Bolivarian Republic of)",
         "alpha-3": "VEN",
         "country-code": "862",
-        "alpha-2": "VE",
-        "NOC": "VEN"
+        "alpha-2": "VE"
     },
     {
         "name": "Viet Nam",
         "alpha-3": "VNM",
-        "country-code": "704"
+        "country-code": "704",
+        "alpha-2": "VN",
+        "IOC": "VIE"
     },
     {
         "name": "Vietnam",
         "alpha-3": "VNM",
         "country-code": "704",
-        "alpha-2": "VN",
-        "NOC": "VIE"
+        "alpha-2": "VN"
     },
     {
         "name": "Virgin Islands (British)",
         "alpha-3": "VGB",
-        "country-code": "092"
+        "country-code": "092",
+        "alpha-2": "VG",
+        "IOC": "ISV"
     },
     {
         "name": "British Virgin Islands",
         "alpha-3": "VGB",
         "country-code": "092",
-        "alpha-2": "VG",
-        "NOC": "IVB"
+        "alpha-2": "VG"
     },
     {
         "name": "Virgin Islands (U.S.)",
         "alpha-3": "VIR",
         "country-code": "850",
-        "NOC": "ISV",
         "alpha-2": "VI"
     },
     {
         "name": "US Virgin Islands",
         "alpha-3": "VIR",
         "country-code": "850",
-        "NOC": "ISV",
         "alpha-2": "VI"
     },
     {
@@ -1715,27 +1774,29 @@
     {
         "name": "Western Sahara",
         "alpha-3": "ESH",
-        "country-code": "732"
+        "country-code": "732",
+        "alpha-2": "EH",
+        "IOC": ""
     },
     {
         "name": "Yemen",
         "alpha-3": "YEM",
         "country-code": "887",
-        "NOC": "YEM",
-        "alpha-2": "YE"
+        "alpha-2": "YE",
+        "IOC": "YEM"
     },
     {
         "name": "Zambia",
         "alpha-3": "ZMB",
         "country-code": "894",
-        "NOC": "ZAM",
-        "alpha-2": "ZM"
+        "alpha-2": "ZM",
+        "IOC": "ZAM"
     },
     {
         "name": "Zimbabwe",
         "alpha-3": "ZWE",
         "country-code": "716",
-        "NOC": "ZIM",
-        "alpha-2": "ZW"
+        "alpha-2": "ZW",
+        "IOC": "ZIM"
     }
 ]
