@@ -139,7 +139,7 @@ export async function main() {
     countermappedPlusNom = 0;
     const Tournaments = []
     // console.log(jsonFiles[0])
-    // let fidecountriestest = ["Romania"]
+    // let fidecountriestest = ["Finland"]
     for (const countryname of fidecountries) {
         console.log(countryname)
         let country = slim3countries.filter((obj) => {
@@ -153,7 +153,7 @@ export async function main() {
             continue
         }
 
-        let tours = await fetchFideTours(`https://ratings.fide.com/tournament_list.phtml?country=${country.NOC}`)
+        let tours = await fetchFideTours(`https://ratings.fide.com/tournament_list.phtml?country=${country.IOC}`)
         if (tours.length === 0) {
             console.log(`country ${country.name} has zero tournaments...`)
             continue
@@ -215,8 +215,14 @@ export async function main() {
         let data = JSON.stringify(Tournaments);
         fs.writeFileSync('tournaments.json', data);
     }
+
+    // fs.appendFile('tournaments.json', JSON.stringify(Tournaments), function (err) {
+    //     if (err) throw err;
+    //     console.log('Saved!');
+    // });
     // return (Tournaments)
     // console.timeEnd("main");
+
     return ('success') // for testing purposes
 }
 

@@ -1169,13 +1169,15 @@
         "name": "North Macedonia",
         "alpha-3": "MKD",
         "country-code": "807",
-        "alpha-2": "MK"
+        "alpha-2": "MK",
+        "IOC": "MKD"
     },
     {
         "name": "Former YUG Rep of Macedonia",
         "alpha-3": "MKD",
         "country-code": "807",
-        "alpha-2": "MK"
+        "alpha-2": "MK",
+        "IOC": "MKD"
     },
     {
         "name": "Northern Mariana Islands",
@@ -1678,14 +1680,28 @@
         "alpha-3": "GBR",
         "country-code": "826",
         "alpha-2": "UK",
-        "IOC": ""
+        "IOC": "GBR"
     },
     {
-        "name": "United Kingdom of Great Britain and Northern Ireland, England, Scotland, Wales",
+        "name": "England",
         "alpha-3": "GBR",
         "country-code": "826",
         "alpha-2": "UK",
-        "IOC": ""
+        "IOC": "ENG"
+    },
+    {
+        "name": "Scotland",
+        "alpha-3": "GBR",
+        "country-code": "826",
+        "alpha-2": "UK",
+        "IOC": "SCO"
+    },
+    {
+        "name": "Wales",
+        "alpha-3": "GBR",
+        "country-code": "826",
+        "alpha-2": "UK",
+        "IOC": "WLS"
     },
     {
         "name": "United States of America",
