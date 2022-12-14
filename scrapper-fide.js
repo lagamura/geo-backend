@@ -23,7 +23,7 @@ var corsOptions = {
 
 const PORT = 8000;
 const app = express()
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(helmet())
 app.use(compression()); // Compress all routes
 // app.use(express.json());
@@ -89,7 +89,7 @@ async function fetchFideTours(url) {
 
 
                 // let children = el.children()
-                $(this).find('td').each((i, el) => {
+                $(this).find('td').each(async (i, el) => {
                     if (i > 1 && i < 6) {
                         if (i == 3 || i == 5) {
                             tour[ObjFields[i]] = $(el).text().trim()
@@ -100,8 +100,13 @@ async function fetchFideTours(url) {
                     }
                     if (i == 6) {
                         tour[ObjFields[i]] = $(el).find('a').attr('href')
+                        const dateEnd = await getTourInfo(tour.linkInfo)
+                        // console.log(dateEnd)
+                        tour.endingDate = dateEnd
                     }
+
                 })
+                // console.log(tour)
                 Tournaments.push(tour)
             }
 
@@ -110,6 +115,8 @@ async function fetchFideTours(url) {
     catch (error) {
         console.error(error)
     }
+
+
     return (Tournaments)
 
 }
@@ -285,3 +292,26 @@ app.post('/contact', multer().none(), (req, res) => {
 //         console.log(country)
 //     }
 // }
+
+async function getTourInfo(url) {
+    const fullUrl = `https://ratings.fide.com/${url}`
+    try {
+        const response = await axios.get(fullUrl, {
+            headers: {
+                "Accept-Encoding": null
+            }
+        });
+        const body = await response.data;
+        let $ = cheerio.load(body);
+        const tbrow = $('tr > td').filter(function () {
+            return $(this).text().trim() === 'End Date';
+        })
+        // console.log(tbrow.text())
+        const endDate = tbrow.siblings('td').text().trim()
+        // console.log(endDate)
+        return (endDate)
+    }
+    catch (error) {
+        console.error(error)
+    }
+}
